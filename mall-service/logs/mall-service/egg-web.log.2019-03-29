@@ -1,0 +1,1007 @@
+2019-03-29 11:13:14,885 INFO 17199 [egg-logrotator] app logger reload: got log-reload message
+2019-03-29 11:23:22,948 INFO 17370 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 11:23:22,987 INFO 17370 [egg-multipart] stream mode enable
+2019-03-29 11:23:23,470 INFO 17370 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 11:23:23,473 INFO 17370 [egg-security] use methodnoallow middleware
+2019-03-29 11:23:23,474 INFO 17370 [egg-security] use noopen middleware
+2019-03-29 11:23:23,475 INFO 17370 [egg-security] use nosniff middleware
+2019-03-29 11:23:23,476 INFO 17370 [egg-security] use xssProtection middleware
+2019-03-29 11:23:23,477 INFO 17370 [egg-security] use xframe middleware
+2019-03-29 11:23:23,478 INFO 17370 [egg-security] use dta middleware
+2019-03-29 11:23:23,478 INFO 17370 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 11:23:23,500 INFO 17370 [egg:core] dump config after load, 9ms
+2019-03-29 11:23:23,560 INFO 17370 [egg-watcher:application] watcher start success
+2019-03-29 11:23:23,588 INFO 17370 [egg:core] dump config after ready, 9ms
+2019-03-29 11:35:09,140 INFO 17420 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 11:35:09,181 INFO 17420 [egg-multipart] stream mode enable
+2019-03-29 11:35:09,676 INFO 17420 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 11:35:09,679 INFO 17420 [egg-security] use methodnoallow middleware
+2019-03-29 11:35:09,679 INFO 17420 [egg-security] use noopen middleware
+2019-03-29 11:35:09,680 INFO 17420 [egg-security] use nosniff middleware
+2019-03-29 11:35:09,680 INFO 17420 [egg-security] use xssProtection middleware
+2019-03-29 11:35:09,681 INFO 17420 [egg-security] use xframe middleware
+2019-03-29 11:35:09,681 INFO 17420 [egg-security] use dta middleware
+2019-03-29 11:35:09,682 INFO 17420 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 11:35:09,700 INFO 17420 [egg:core] dump config after load, 5ms
+2019-03-29 11:35:09,738 INFO 17420 [egg-watcher:application] watcher start success
+2019-03-29 11:35:09,787 INFO 17420 [egg:core] dump config after ready, 8ms
+2019-03-29 11:40:13,479 INFO 17459 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 11:40:13,527 INFO 17459 [egg-multipart] stream mode enable
+2019-03-29 11:40:14,029 INFO 17459 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 11:40:14,032 INFO 17459 [egg-security] use methodnoallow middleware
+2019-03-29 11:40:14,033 INFO 17459 [egg-security] use noopen middleware
+2019-03-29 11:40:14,034 INFO 17459 [egg-security] use nosniff middleware
+2019-03-29 11:40:14,035 INFO 17459 [egg-security] use xssProtection middleware
+2019-03-29 11:40:14,036 INFO 17459 [egg-security] use xframe middleware
+2019-03-29 11:40:14,036 INFO 17459 [egg-security] use dta middleware
+2019-03-29 11:40:14,036 INFO 17459 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 11:40:14,054 INFO 17459 [egg:core] dump config after load, 4ms
+2019-03-29 11:40:14,093 INFO 17459 [egg-watcher:application] watcher start success
+2019-03-29 11:40:14,132 INFO 17459 [egg:core] dump config after ready, 7ms
+2019-03-29 11:42:19,100 INFO 17466 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 11:42:19,142 INFO 17466 [egg-multipart] stream mode enable
+2019-03-29 11:42:19,643 INFO 17466 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 11:42:19,645 INFO 17466 [egg-security] use methodnoallow middleware
+2019-03-29 11:42:19,646 INFO 17466 [egg-security] use noopen middleware
+2019-03-29 11:42:19,647 INFO 17466 [egg-security] use nosniff middleware
+2019-03-29 11:42:19,647 INFO 17466 [egg-security] use xssProtection middleware
+2019-03-29 11:42:19,648 INFO 17466 [egg-security] use xframe middleware
+2019-03-29 11:42:19,649 INFO 17466 [egg-security] use dta middleware
+2019-03-29 11:42:19,649 INFO 17466 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 11:42:19,670 INFO 17466 [egg:core] dump config after load, 10ms
+2019-03-29 11:42:19,718 INFO 17466 [egg-watcher:application] watcher start success
+2019-03-29 11:42:19,757 INFO 17466 [egg:core] dump config after ready, 7ms
+2019-03-29 11:42:29,217 INFO 17472 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 11:42:29,257 INFO 17472 [egg-multipart] stream mode enable
+2019-03-29 11:42:29,737 INFO 17472 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 11:42:29,741 INFO 17472 [egg-security] use methodnoallow middleware
+2019-03-29 11:42:29,742 INFO 17472 [egg-security] use noopen middleware
+2019-03-29 11:42:29,743 INFO 17472 [egg-security] use nosniff middleware
+2019-03-29 11:42:29,744 INFO 17472 [egg-security] use xssProtection middleware
+2019-03-29 11:42:29,745 INFO 17472 [egg-security] use xframe middleware
+2019-03-29 11:42:29,746 INFO 17472 [egg-security] use dta middleware
+2019-03-29 11:42:29,746 INFO 17472 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 11:42:29,769 INFO 17472 [egg:core] dump config after load, 13ms
+2019-03-29 11:42:29,813 INFO 17472 [egg-watcher:application] watcher start success
+2019-03-29 11:42:29,853 INFO 17472 [egg:core] dump config after ready, 6ms
+2019-03-29 11:44:50,629 INFO 17480 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 11:44:50,680 INFO 17480 [egg-multipart] stream mode enable
+2019-03-29 11:44:51,166 INFO 17480 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 11:44:51,181 INFO 17480 [egg-security] use methodnoallow middleware
+2019-03-29 11:44:51,182 INFO 17480 [egg-security] use noopen middleware
+2019-03-29 11:44:51,183 INFO 17480 [egg-security] use nosniff middleware
+2019-03-29 11:44:51,184 INFO 17480 [egg-security] use xssProtection middleware
+2019-03-29 11:44:51,184 INFO 17480 [egg-security] use xframe middleware
+2019-03-29 11:44:51,185 INFO 17480 [egg-security] use dta middleware
+2019-03-29 11:44:51,185 INFO 17480 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 11:44:51,232 INFO 17480 [egg:core] dump config after load, 20ms
+2019-03-29 11:44:51,332 INFO 17480 [egg-watcher:application] watcher start success
+2019-03-29 11:44:51,392 INFO 17480 [egg:core] dump config after ready, 7ms
+2019-03-29 11:45:37,180 INFO 17483 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 11:45:37,211 INFO 17483 [egg-multipart] stream mode enable
+2019-03-29 11:45:37,433 INFO 17483 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 11:45:37,435 INFO 17483 [egg-security] use methodnoallow middleware
+2019-03-29 11:45:37,435 INFO 17483 [egg-security] use noopen middleware
+2019-03-29 11:45:37,436 INFO 17483 [egg-security] use nosniff middleware
+2019-03-29 11:45:37,436 INFO 17483 [egg-security] use xssProtection middleware
+2019-03-29 11:45:37,436 INFO 17483 [egg-security] use xframe middleware
+2019-03-29 11:45:37,436 INFO 17483 [egg-security] use dta middleware
+2019-03-29 11:45:37,436 INFO 17483 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 11:45:37,448 INFO 17483 [egg:core] dump config after load, 7ms
+2019-03-29 11:45:37,493 INFO 17483 [egg-watcher:application] watcher start success
+2019-03-29 11:45:37,513 INFO 17483 [egg:core] dump config after ready, 5ms
+2019-03-29 12:19:06,318 WARN 17483 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-29 13:24:41,508 WARN 17483 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-29 13:33:44,047 WARN 17483 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-29 13:37:46,904 INFO 17709 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 13:37:46,944 INFO 17709 [egg-multipart] stream mode enable
+2019-03-29 13:37:47,449 INFO 17709 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 13:37:47,452 INFO 17709 [egg-security] use methodnoallow middleware
+2019-03-29 13:37:47,453 INFO 17709 [egg-security] use noopen middleware
+2019-03-29 13:37:47,454 INFO 17709 [egg-security] use nosniff middleware
+2019-03-29 13:37:47,455 INFO 17709 [egg-security] use xssProtection middleware
+2019-03-29 13:37:47,456 INFO 17709 [egg-security] use xframe middleware
+2019-03-29 13:37:47,457 INFO 17709 [egg-security] use dta middleware
+2019-03-29 13:37:47,457 INFO 17709 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 13:37:47,477 INFO 17709 [egg:core] dump config after load, 10ms
+2019-03-29 13:37:47,517 INFO 17709 [egg-watcher:application] watcher start success
+2019-03-29 13:37:47,558 INFO 17709 [egg:core] dump config after ready, 7ms
+2019-03-29 15:41:11,382 INFO 19989 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 15:41:11,443 INFO 19989 [egg-multipart] stream mode enable
+2019-03-29 15:41:12,081 INFO 19989 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 15:41:12,085 INFO 19989 [egg-security] use methodnoallow middleware
+2019-03-29 15:41:12,090 INFO 19989 [egg-security] use noopen middleware
+2019-03-29 15:41:12,092 INFO 19989 [egg-security] use nosniff middleware
+2019-03-29 15:41:12,094 INFO 19989 [egg-security] use xssProtection middleware
+2019-03-29 15:41:12,094 INFO 19989 [egg-security] use xframe middleware
+2019-03-29 15:41:12,095 INFO 19989 [egg-security] use dta middleware
+2019-03-29 15:41:12,095 INFO 19989 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 15:41:12,120 INFO 19989 [egg:core] dump config after load, 13ms
+2019-03-29 15:41:12,194 INFO 19989 [egg-watcher:application] watcher start success
+2019-03-29 15:41:12,263 INFO 19989 [egg:core] dump config after ready, 22ms
+2019-03-29 15:43:01,546 INFO 19994 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 15:43:01,591 INFO 19994 [egg-multipart] stream mode enable
+2019-03-29 15:43:02,101 INFO 19994 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 15:43:02,104 INFO 19994 [egg-security] use methodnoallow middleware
+2019-03-29 15:43:02,105 INFO 19994 [egg-security] use noopen middleware
+2019-03-29 15:43:02,106 INFO 19994 [egg-security] use nosniff middleware
+2019-03-29 15:43:02,107 INFO 19994 [egg-security] use xssProtection middleware
+2019-03-29 15:43:02,108 INFO 19994 [egg-security] use xframe middleware
+2019-03-29 15:43:02,109 INFO 19994 [egg-security] use dta middleware
+2019-03-29 15:43:02,109 INFO 19994 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 15:43:02,127 INFO 19994 [egg:core] dump config after load, 5ms
+2019-03-29 15:43:02,169 INFO 19994 [egg-watcher:application] watcher start success
+2019-03-29 15:43:02,217 INFO 19994 [egg:core] dump config after ready, 6ms
+2019-03-29 15:43:08,319 INFO 19996 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 15:43:08,354 INFO 19996 [egg-multipart] stream mode enable
+2019-03-29 15:43:08,688 INFO 19996 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 15:43:08,691 INFO 19996 [egg-security] use methodnoallow middleware
+2019-03-29 15:43:08,691 INFO 19996 [egg-security] use noopen middleware
+2019-03-29 15:43:08,692 INFO 19996 [egg-security] use nosniff middleware
+2019-03-29 15:43:08,692 INFO 19996 [egg-security] use xssProtection middleware
+2019-03-29 15:43:08,692 INFO 19996 [egg-security] use xframe middleware
+2019-03-29 15:43:08,693 INFO 19996 [egg-security] use dta middleware
+2019-03-29 15:43:08,693 INFO 19996 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 15:43:08,710 INFO 19996 [egg:core] dump config after load, 12ms
+2019-03-29 15:43:08,752 INFO 19996 [egg-watcher:application] watcher start success
+2019-03-29 15:43:08,785 INFO 19996 [egg:core] dump config after ready, 6ms
+2019-03-29 15:43:20,023 INFO 20001 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 15:43:20,059 INFO 20001 [egg-multipart] stream mode enable
+2019-03-29 15:43:20,314 INFO 20001 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 15:43:20,317 INFO 20001 [egg-security] use methodnoallow middleware
+2019-03-29 15:43:20,317 INFO 20001 [egg-security] use noopen middleware
+2019-03-29 15:43:20,317 INFO 20001 [egg-security] use nosniff middleware
+2019-03-29 15:43:20,318 INFO 20001 [egg-security] use xssProtection middleware
+2019-03-29 15:43:20,318 INFO 20001 [egg-security] use xframe middleware
+2019-03-29 15:43:20,318 INFO 20001 [egg-security] use dta middleware
+2019-03-29 15:43:20,318 INFO 20001 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 15:43:20,331 INFO 20001 [egg:core] dump config after load, 4ms
+2019-03-29 15:43:20,379 INFO 20001 [egg-watcher:application] watcher start success
+2019-03-29 15:43:20,401 INFO 20001 [egg:core] dump config after ready, 4ms
+2019-03-29 15:43:26,942 INFO 20002 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 15:43:26,981 INFO 20002 [egg-multipart] stream mode enable
+2019-03-29 15:43:27,241 INFO 20002 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 15:43:27,243 INFO 20002 [egg-security] use methodnoallow middleware
+2019-03-29 15:43:27,243 INFO 20002 [egg-security] use noopen middleware
+2019-03-29 15:43:27,244 INFO 20002 [egg-security] use nosniff middleware
+2019-03-29 15:43:27,244 INFO 20002 [egg-security] use xssProtection middleware
+2019-03-29 15:43:27,244 INFO 20002 [egg-security] use xframe middleware
+2019-03-29 15:43:27,245 INFO 20002 [egg-security] use dta middleware
+2019-03-29 15:43:27,245 INFO 20002 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 15:43:27,256 INFO 20002 [egg:core] dump config after load, 7ms
+2019-03-29 15:43:27,302 INFO 20002 [egg-watcher:application] watcher start success
+2019-03-29 15:43:27,327 INFO 20002 [egg:core] dump config after ready, 8ms
+2019-03-29 15:43:40,062 INFO 20016 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 15:43:40,093 INFO 20016 [egg-multipart] stream mode enable
+2019-03-29 15:43:40,371 INFO 20016 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 15:43:40,374 INFO 20016 [egg-security] use methodnoallow middleware
+2019-03-29 15:43:40,375 INFO 20016 [egg-security] use noopen middleware
+2019-03-29 15:43:40,377 INFO 20016 [egg-security] use nosniff middleware
+2019-03-29 15:43:40,378 INFO 20016 [egg-security] use xssProtection middleware
+2019-03-29 15:43:40,379 INFO 20016 [egg-security] use xframe middleware
+2019-03-29 15:43:40,380 INFO 20016 [egg-security] use dta middleware
+2019-03-29 15:43:40,380 INFO 20016 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 15:43:40,399 INFO 20016 [egg:core] dump config after load, 8ms
+2019-03-29 15:43:40,444 INFO 20016 [egg-watcher:application] watcher start success
+2019-03-29 15:43:40,464 INFO 20016 [egg:core] dump config after ready, 5ms
+2019-03-29 15:44:18,356 INFO 20017 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 15:44:18,397 INFO 20017 [egg-multipart] stream mode enable
+2019-03-29 15:44:18,899 INFO 20017 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 15:44:18,901 INFO 20017 [egg-security] use methodnoallow middleware
+2019-03-29 15:44:18,902 INFO 20017 [egg-security] use noopen middleware
+2019-03-29 15:44:18,903 INFO 20017 [egg-security] use nosniff middleware
+2019-03-29 15:44:18,904 INFO 20017 [egg-security] use xssProtection middleware
+2019-03-29 15:44:18,905 INFO 20017 [egg-security] use xframe middleware
+2019-03-29 15:44:18,905 INFO 20017 [egg-security] use dta middleware
+2019-03-29 15:44:18,905 INFO 20017 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 15:44:18,920 INFO 20017 [egg:core] dump config after load, 7ms
+2019-03-29 15:44:18,961 INFO 20017 [egg-watcher:application] watcher start success
+2019-03-29 15:44:18,999 INFO 20017 [egg:core] dump config after ready, 3ms
+2019-03-29 15:44:27,592 INFO 20028 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 15:44:27,623 INFO 20028 [egg-multipart] stream mode enable
+2019-03-29 15:44:27,852 INFO 20028 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 15:44:27,854 INFO 20028 [egg-security] use methodnoallow middleware
+2019-03-29 15:44:27,855 INFO 20028 [egg-security] use noopen middleware
+2019-03-29 15:44:27,855 INFO 20028 [egg-security] use nosniff middleware
+2019-03-29 15:44:27,855 INFO 20028 [egg-security] use xssProtection middleware
+2019-03-29 15:44:27,856 INFO 20028 [egg-security] use xframe middleware
+2019-03-29 15:44:27,856 INFO 20028 [egg-security] use dta middleware
+2019-03-29 15:44:27,856 INFO 20028 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 15:44:27,868 INFO 20028 [egg:core] dump config after load, 8ms
+2019-03-29 15:44:27,915 INFO 20028 [egg-watcher:application] watcher start success
+2019-03-29 15:44:27,940 INFO 20028 [egg:core] dump config after ready, 6ms
+2019-03-29 15:45:47,545 INFO 20042 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 15:45:47,596 INFO 20042 [egg-multipart] stream mode enable
+2019-03-29 15:45:48,000 INFO 20042 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 15:45:48,003 INFO 20042 [egg-security] use methodnoallow middleware
+2019-03-29 15:45:48,003 INFO 20042 [egg-security] use noopen middleware
+2019-03-29 15:45:48,004 INFO 20042 [egg-security] use nosniff middleware
+2019-03-29 15:45:48,005 INFO 20042 [egg-security] use xssProtection middleware
+2019-03-29 15:45:48,006 INFO 20042 [egg-security] use xframe middleware
+2019-03-29 15:45:48,006 INFO 20042 [egg-security] use dta middleware
+2019-03-29 15:45:48,006 INFO 20042 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 15:45:48,030 INFO 20042 [egg:core] dump config after load, 16ms
+2019-03-29 15:45:48,094 INFO 20042 [egg-watcher:application] watcher start success
+2019-03-29 15:45:48,123 INFO 20042 [egg:core] dump config after ready, 8ms
+2019-03-29 15:47:34,218 INFO 20068 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 15:47:34,257 INFO 20068 [egg-multipart] stream mode enable
+2019-03-29 15:47:34,565 INFO 20068 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 15:47:34,568 INFO 20068 [egg-security] use methodnoallow middleware
+2019-03-29 15:47:34,569 INFO 20068 [egg-security] use noopen middleware
+2019-03-29 15:47:34,570 INFO 20068 [egg-security] use nosniff middleware
+2019-03-29 15:47:34,570 INFO 20068 [egg-security] use xssProtection middleware
+2019-03-29 15:47:34,571 INFO 20068 [egg-security] use xframe middleware
+2019-03-29 15:47:34,572 INFO 20068 [egg-security] use dta middleware
+2019-03-29 15:47:34,572 INFO 20068 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 15:47:34,593 INFO 20068 [egg:core] dump config after load, 11ms
+2019-03-29 15:47:34,642 INFO 20068 [egg-watcher:application] watcher start success
+2019-03-29 15:47:34,660 INFO 20068 [egg:core] dump config after ready, 3ms
+2019-03-29 15:48:06,867 INFO 20075 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 15:48:06,915 INFO 20075 [egg-multipart] stream mode enable
+2019-03-29 15:48:07,436 INFO 20075 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 15:48:07,439 INFO 20075 [egg-security] use methodnoallow middleware
+2019-03-29 15:48:07,440 INFO 20075 [egg-security] use noopen middleware
+2019-03-29 15:48:07,441 INFO 20075 [egg-security] use nosniff middleware
+2019-03-29 15:48:07,442 INFO 20075 [egg-security] use xssProtection middleware
+2019-03-29 15:48:07,443 INFO 20075 [egg-security] use xframe middleware
+2019-03-29 15:48:07,444 INFO 20075 [egg-security] use dta middleware
+2019-03-29 15:48:07,444 INFO 20075 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 15:48:07,461 INFO 20075 [egg:core] dump config after load, 4ms
+2019-03-29 15:48:07,501 INFO 20075 [egg-watcher:application] watcher start success
+2019-03-29 15:48:07,538 INFO 20075 [egg:core] dump config after ready, 6ms
+2019-03-29 16:01:48,201 INFO 20137 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 16:01:48,247 INFO 20137 [egg-multipart] stream mode enable
+2019-03-29 16:01:48,753 INFO 20137 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 16:01:48,756 INFO 20137 [egg-security] use methodnoallow middleware
+2019-03-29 16:01:48,757 INFO 20137 [egg-security] use noopen middleware
+2019-03-29 16:01:48,758 INFO 20137 [egg-security] use nosniff middleware
+2019-03-29 16:01:48,759 INFO 20137 [egg-security] use xssProtection middleware
+2019-03-29 16:01:48,760 INFO 20137 [egg-security] use xframe middleware
+2019-03-29 16:01:48,761 INFO 20137 [egg-security] use dta middleware
+2019-03-29 16:01:48,761 INFO 20137 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 16:01:48,781 INFO 20137 [egg:core] dump config after load, 9ms
+2019-03-29 16:01:48,821 INFO 20137 [egg-watcher:application] watcher start success
+2019-03-29 16:01:48,861 INFO 20137 [egg:core] dump config after ready, 6ms
+2019-03-29 16:01:49,700 INFO 20138 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 16:01:49,741 INFO 20138 [egg-multipart] stream mode enable
+2019-03-29 16:01:49,993 INFO 20138 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 16:01:49,995 INFO 20138 [egg-security] use methodnoallow middleware
+2019-03-29 16:01:49,995 INFO 20138 [egg-security] use noopen middleware
+2019-03-29 16:01:49,995 INFO 20138 [egg-security] use nosniff middleware
+2019-03-29 16:01:49,996 INFO 20138 [egg-security] use xssProtection middleware
+2019-03-29 16:01:49,996 INFO 20138 [egg-security] use xframe middleware
+2019-03-29 16:01:49,996 INFO 20138 [egg-security] use dta middleware
+2019-03-29 16:01:49,996 INFO 20138 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 16:01:50,007 INFO 20138 [egg:core] dump config after load, 4ms
+2019-03-29 16:01:50,045 INFO 20138 [egg-watcher:application] watcher start success
+2019-03-29 16:01:50,074 INFO 20138 [egg:core] dump config after ready, 6ms
+2019-03-29 16:02:07,789 INFO 20144 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 16:02:07,837 INFO 20144 [egg-multipart] stream mode enable
+2019-03-29 16:02:08,322 INFO 20144 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 16:02:08,325 INFO 20144 [egg-security] use methodnoallow middleware
+2019-03-29 16:02:08,326 INFO 20144 [egg-security] use noopen middleware
+2019-03-29 16:02:08,328 INFO 20144 [egg-security] use nosniff middleware
+2019-03-29 16:02:08,328 INFO 20144 [egg-security] use xssProtection middleware
+2019-03-29 16:02:08,329 INFO 20144 [egg-security] use xframe middleware
+2019-03-29 16:02:08,330 INFO 20144 [egg-security] use dta middleware
+2019-03-29 16:02:08,330 INFO 20144 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 16:02:08,348 INFO 20144 [egg:core] dump config after load, 5ms
+2019-03-29 16:02:08,385 INFO 20144 [egg-watcher:application] watcher start success
+2019-03-29 16:02:08,422 INFO 20144 [egg:core] dump config after ready, 6ms
+2019-03-29 16:02:19,794 INFO 20146 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 16:02:19,839 INFO 20146 [egg-multipart] stream mode enable
+2019-03-29 16:02:20,336 INFO 20146 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 16:02:20,339 INFO 20146 [egg-security] use methodnoallow middleware
+2019-03-29 16:02:20,340 INFO 20146 [egg-security] use noopen middleware
+2019-03-29 16:02:20,341 INFO 20146 [egg-security] use nosniff middleware
+2019-03-29 16:02:20,342 INFO 20146 [egg-security] use xssProtection middleware
+2019-03-29 16:02:20,343 INFO 20146 [egg-security] use xframe middleware
+2019-03-29 16:02:20,344 INFO 20146 [egg-security] use dta middleware
+2019-03-29 16:02:20,344 INFO 20146 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 16:02:20,363 INFO 20146 [egg:core] dump config after load, 10ms
+2019-03-29 16:02:20,402 INFO 20146 [egg-watcher:application] watcher start success
+2019-03-29 16:02:20,442 INFO 20146 [egg:core] dump config after ready, 7ms
+2019-03-29 16:02:21,176 INFO 20147 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 16:02:21,215 INFO 20147 [egg-multipart] stream mode enable
+2019-03-29 16:02:21,436 INFO 20147 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 16:02:21,438 INFO 20147 [egg-security] use methodnoallow middleware
+2019-03-29 16:02:21,438 INFO 20147 [egg-security] use noopen middleware
+2019-03-29 16:02:21,438 INFO 20147 [egg-security] use nosniff middleware
+2019-03-29 16:02:21,439 INFO 20147 [egg-security] use xssProtection middleware
+2019-03-29 16:02:21,439 INFO 20147 [egg-security] use xframe middleware
+2019-03-29 16:02:21,439 INFO 20147 [egg-security] use dta middleware
+2019-03-29 16:02:21,439 INFO 20147 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 16:02:21,451 INFO 20147 [egg:core] dump config after load, 7ms
+2019-03-29 16:02:21,490 INFO 20147 [egg-watcher:application] watcher start success
+2019-03-29 16:02:21,522 INFO 20147 [egg:core] dump config after ready, 5ms
+2019-03-29 16:02:58,869 INFO 20153 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 16:02:58,908 INFO 20153 [egg-multipart] stream mode enable
+2019-03-29 16:02:59,409 INFO 20153 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 16:02:59,412 INFO 20153 [egg-security] use methodnoallow middleware
+2019-03-29 16:02:59,413 INFO 20153 [egg-security] use noopen middleware
+2019-03-29 16:02:59,414 INFO 20153 [egg-security] use nosniff middleware
+2019-03-29 16:02:59,415 INFO 20153 [egg-security] use xssProtection middleware
+2019-03-29 16:02:59,416 INFO 20153 [egg-security] use xframe middleware
+2019-03-29 16:02:59,417 INFO 20153 [egg-security] use dta middleware
+2019-03-29 16:02:59,417 INFO 20153 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 16:02:59,437 INFO 20153 [egg:core] dump config after load, 9ms
+2019-03-29 16:02:59,474 INFO 20153 [egg-watcher:application] watcher start success
+2019-03-29 16:02:59,513 INFO 20153 [egg:core] dump config after ready, 6ms
+2019-03-29 16:03:00,258 INFO 20154 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 16:03:00,294 INFO 20154 [egg-multipart] stream mode enable
+2019-03-29 16:03:00,545 INFO 20154 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 16:03:00,547 INFO 20154 [egg-security] use methodnoallow middleware
+2019-03-29 16:03:00,547 INFO 20154 [egg-security] use noopen middleware
+2019-03-29 16:03:00,547 INFO 20154 [egg-security] use nosniff middleware
+2019-03-29 16:03:00,548 INFO 20154 [egg-security] use xssProtection middleware
+2019-03-29 16:03:00,548 INFO 20154 [egg-security] use xframe middleware
+2019-03-29 16:03:00,548 INFO 20154 [egg-security] use dta middleware
+2019-03-29 16:03:00,548 INFO 20154 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 16:03:00,560 INFO 20154 [egg:core] dump config after load, 4ms
+2019-03-29 16:03:00,608 INFO 20154 [egg-watcher:application] watcher start success
+2019-03-29 16:03:00,630 INFO 20154 [egg:core] dump config after ready, 5ms
+2019-03-29 17:58:23,075 INFO 21841 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 17:58:23,125 INFO 21841 [egg-multipart] stream mode enable
+2019-03-29 17:58:23,559 INFO 21841 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 17:58:23,561 INFO 21841 [egg-security] use methodnoallow middleware
+2019-03-29 17:58:23,565 INFO 21841 [egg-security] use noopen middleware
+2019-03-29 17:58:23,566 INFO 21841 [egg-security] use nosniff middleware
+2019-03-29 17:58:23,566 INFO 21841 [egg-security] use xssProtection middleware
+2019-03-29 17:58:23,567 INFO 21841 [egg-security] use xframe middleware
+2019-03-29 17:58:23,567 INFO 21841 [egg-security] use dta middleware
+2019-03-29 17:58:23,568 INFO 21841 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 17:58:23,579 INFO 21841 [egg:core] dump config after load, 5ms
+2019-03-29 17:58:23,627 INFO 21841 [egg:core] dump config after ready, 5ms
+2019-03-29 17:58:23,631 INFO 21841 [egg-watcher:application] watcher start success
+2019-03-29 17:58:24,518 INFO 21842 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 17:58:24,555 INFO 21842 [egg-multipart] stream mode enable
+2019-03-29 17:58:24,818 INFO 21842 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 17:58:24,822 INFO 21842 [egg-security] use methodnoallow middleware
+2019-03-29 17:58:24,822 INFO 21842 [egg-security] use noopen middleware
+2019-03-29 17:58:24,823 INFO 21842 [egg-security] use nosniff middleware
+2019-03-29 17:58:24,823 INFO 21842 [egg-security] use xssProtection middleware
+2019-03-29 17:58:24,823 INFO 21842 [egg-security] use xframe middleware
+2019-03-29 17:58:24,824 INFO 21842 [egg-security] use dta middleware
+2019-03-29 17:58:24,824 INFO 21842 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 17:58:24,836 INFO 21842 [egg:core] dump config after load, 7ms
+2019-03-29 17:58:24,886 INFO 21842 [egg:core] dump config after ready, 5ms
+2019-03-29 17:58:24,892 INFO 21842 [egg-watcher:application] watcher start success
+2019-03-29 17:58:46,565 INFO 21843 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 17:58:46,607 INFO 21843 [egg-multipart] stream mode enable
+2019-03-29 17:58:47,102 INFO 21843 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 17:58:47,112 INFO 21843 [egg-security] use methodnoallow middleware
+2019-03-29 17:58:47,113 INFO 21843 [egg-security] use noopen middleware
+2019-03-29 17:58:47,114 INFO 21843 [egg-security] use nosniff middleware
+2019-03-29 17:58:47,114 INFO 21843 [egg-security] use xssProtection middleware
+2019-03-29 17:58:47,115 INFO 21843 [egg-security] use xframe middleware
+2019-03-29 17:58:47,116 INFO 21843 [egg-security] use dta middleware
+2019-03-29 17:58:47,116 INFO 21843 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 17:58:47,129 INFO 21843 [egg:core] dump config after load, 4ms
+2019-03-29 17:58:47,184 INFO 21843 [egg:core] dump config after ready, 6ms
+2019-03-29 17:58:47,190 INFO 21843 [egg-watcher:application] watcher start success
+2019-03-29 17:58:47,920 INFO 21844 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 17:58:47,951 INFO 21844 [egg-multipart] stream mode enable
+2019-03-29 17:58:48,242 INFO 21844 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 17:58:48,244 INFO 21844 [egg-security] use methodnoallow middleware
+2019-03-29 17:58:48,245 INFO 21844 [egg-security] use noopen middleware
+2019-03-29 17:58:48,245 INFO 21844 [egg-security] use nosniff middleware
+2019-03-29 17:58:48,245 INFO 21844 [egg-security] use xssProtection middleware
+2019-03-29 17:58:48,245 INFO 21844 [egg-security] use xframe middleware
+2019-03-29 17:58:48,246 INFO 21844 [egg-security] use dta middleware
+2019-03-29 17:58:48,246 INFO 21844 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 17:58:48,258 INFO 21844 [egg:core] dump config after load, 5ms
+2019-03-29 17:58:48,310 INFO 21844 [egg:core] dump config after ready, 4ms
+2019-03-29 17:58:48,314 INFO 21844 [egg-watcher:application] watcher start success
+2019-03-29 17:59:02,780 INFO 21849 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 17:59:02,811 INFO 21849 [egg-multipart] stream mode enable
+2019-03-29 17:59:03,051 INFO 21849 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 17:59:03,053 INFO 21849 [egg-security] use methodnoallow middleware
+2019-03-29 17:59:03,053 INFO 21849 [egg-security] use noopen middleware
+2019-03-29 17:59:03,054 INFO 21849 [egg-security] use nosniff middleware
+2019-03-29 17:59:03,054 INFO 21849 [egg-security] use xssProtection middleware
+2019-03-29 17:59:03,054 INFO 21849 [egg-security] use xframe middleware
+2019-03-29 17:59:03,055 INFO 21849 [egg-security] use dta middleware
+2019-03-29 17:59:03,055 INFO 21849 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 17:59:03,067 INFO 21849 [egg:core] dump config after load, 8ms
+2019-03-29 17:59:03,123 INFO 21849 [egg:core] dump config after ready, 5ms
+2019-03-29 17:59:03,128 INFO 21849 [egg-watcher:application] watcher start success
+2019-03-29 17:59:03,925 INFO 21854 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 17:59:03,957 INFO 21854 [egg-multipart] stream mode enable
+2019-03-29 17:59:04,217 INFO 21854 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 17:59:04,219 INFO 21854 [egg-security] use methodnoallow middleware
+2019-03-29 17:59:04,219 INFO 21854 [egg-security] use noopen middleware
+2019-03-29 17:59:04,219 INFO 21854 [egg-security] use nosniff middleware
+2019-03-29 17:59:04,220 INFO 21854 [egg-security] use xssProtection middleware
+2019-03-29 17:59:04,220 INFO 21854 [egg-security] use xframe middleware
+2019-03-29 17:59:04,220 INFO 21854 [egg-security] use dta middleware
+2019-03-29 17:59:04,220 INFO 21854 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 17:59:04,232 INFO 21854 [egg:core] dump config after load, 7ms
+2019-03-29 17:59:04,281 INFO 21854 [egg:core] dump config after ready, 3ms
+2019-03-29 17:59:04,285 INFO 21854 [egg-watcher:application] watcher start success
+2019-03-29 17:59:59,107 INFO 21856 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 17:59:59,146 INFO 21856 [egg-multipart] stream mode enable
+2019-03-29 17:59:59,650 INFO 21856 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 17:59:59,653 INFO 21856 [egg-security] use methodnoallow middleware
+2019-03-29 17:59:59,657 INFO 21856 [egg-security] use noopen middleware
+2019-03-29 17:59:59,658 INFO 21856 [egg-security] use nosniff middleware
+2019-03-29 17:59:59,659 INFO 21856 [egg-security] use xssProtection middleware
+2019-03-29 17:59:59,660 INFO 21856 [egg-security] use xframe middleware
+2019-03-29 17:59:59,661 INFO 21856 [egg-security] use dta middleware
+2019-03-29 17:59:59,661 INFO 21856 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 17:59:59,675 INFO 21856 [egg:core] dump config after load, 5ms
+2019-03-29 17:59:59,720 INFO 21856 [egg:core] dump config after ready, 3ms
+2019-03-29 17:59:59,724 INFO 21856 [egg-watcher:application] watcher start success
+2019-03-29 18:00:00,458 INFO 21857 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:00:00,490 INFO 21857 [egg-multipart] stream mode enable
+2019-03-29 18:00:00,781 INFO 21857 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:00:00,784 INFO 21857 [egg-security] use methodnoallow middleware
+2019-03-29 18:00:00,784 INFO 21857 [egg-security] use noopen middleware
+2019-03-29 18:00:00,785 INFO 21857 [egg-security] use nosniff middleware
+2019-03-29 18:00:00,785 INFO 21857 [egg-security] use xssProtection middleware
+2019-03-29 18:00:00,785 INFO 21857 [egg-security] use xframe middleware
+2019-03-29 18:00:00,786 INFO 21857 [egg-security] use dta middleware
+2019-03-29 18:00:00,786 INFO 21857 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:00:00,801 INFO 21857 [egg:core] dump config after load, 11ms
+2019-03-29 18:00:00,852 INFO 21857 [egg:core] dump config after ready, 5ms
+2019-03-29 18:00:00,856 INFO 21857 [egg-watcher:application] watcher start success
+2019-03-29 18:00:26,527 INFO 21862 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:00:26,570 INFO 21862 [egg-multipart] stream mode enable
+2019-03-29 18:00:27,070 INFO 21862 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:00:27,073 INFO 21862 [egg-security] use methodnoallow middleware
+2019-03-29 18:00:27,074 INFO 21862 [egg-security] use noopen middleware
+2019-03-29 18:00:27,075 INFO 21862 [egg-security] use nosniff middleware
+2019-03-29 18:00:27,076 INFO 21862 [egg-security] use xssProtection middleware
+2019-03-29 18:00:27,077 INFO 21862 [egg-security] use xframe middleware
+2019-03-29 18:00:27,078 INFO 21862 [egg-security] use dta middleware
+2019-03-29 18:00:27,078 INFO 21862 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:00:27,095 INFO 21862 [egg:core] dump config after load, 7ms
+2019-03-29 18:00:27,142 INFO 21862 [egg:core] dump config after ready, 4ms
+2019-03-29 18:00:27,146 INFO 21862 [egg-watcher:application] watcher start success
+2019-03-29 18:00:27,927 INFO 21863 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:00:27,956 INFO 21863 [egg-multipart] stream mode enable
+2019-03-29 18:00:28,198 INFO 21863 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:00:28,200 INFO 21863 [egg-security] use methodnoallow middleware
+2019-03-29 18:00:28,200 INFO 21863 [egg-security] use noopen middleware
+2019-03-29 18:00:28,201 INFO 21863 [egg-security] use nosniff middleware
+2019-03-29 18:00:28,201 INFO 21863 [egg-security] use xssProtection middleware
+2019-03-29 18:00:28,201 INFO 21863 [egg-security] use xframe middleware
+2019-03-29 18:00:28,201 INFO 21863 [egg-security] use dta middleware
+2019-03-29 18:00:28,201 INFO 21863 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:00:28,213 INFO 21863 [egg:core] dump config after load, 7ms
+2019-03-29 18:00:28,260 INFO 21863 [egg:core] dump config after ready, 4ms
+2019-03-29 18:00:28,263 INFO 21863 [egg-watcher:application] watcher start success
+2019-03-29 18:01:12,758 INFO 21868 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:01:12,798 INFO 21868 [egg-multipart] stream mode enable
+2019-03-29 18:01:13,053 INFO 21868 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:01:13,055 INFO 21868 [egg-security] use methodnoallow middleware
+2019-03-29 18:01:13,055 INFO 21868 [egg-security] use noopen middleware
+2019-03-29 18:01:13,055 INFO 21868 [egg-security] use nosniff middleware
+2019-03-29 18:01:13,056 INFO 21868 [egg-security] use xssProtection middleware
+2019-03-29 18:01:13,056 INFO 21868 [egg-security] use xframe middleware
+2019-03-29 18:01:13,056 INFO 21868 [egg-security] use dta middleware
+2019-03-29 18:01:13,056 INFO 21868 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:01:13,079 INFO 21868 [egg:core] dump config after load, 17ms
+2019-03-29 18:01:13,127 INFO 21868 [egg:core] dump config after ready, 7ms
+2019-03-29 18:01:13,133 INFO 21868 [egg-watcher:application] watcher start success
+2019-03-29 18:01:13,903 INFO 21874 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:01:13,941 INFO 21874 [egg-multipart] stream mode enable
+2019-03-29 18:01:14,226 INFO 21874 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:01:14,228 INFO 21874 [egg-security] use methodnoallow middleware
+2019-03-29 18:01:14,228 INFO 21874 [egg-security] use noopen middleware
+2019-03-29 18:01:14,228 INFO 21874 [egg-security] use nosniff middleware
+2019-03-29 18:01:14,229 INFO 21874 [egg-security] use xssProtection middleware
+2019-03-29 18:01:14,229 INFO 21874 [egg-security] use xframe middleware
+2019-03-29 18:01:14,229 INFO 21874 [egg-security] use dta middleware
+2019-03-29 18:01:14,229 INFO 21874 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:01:14,240 INFO 21874 [egg:core] dump config after load, 4ms
+2019-03-29 18:01:14,289 INFO 21874 [egg:core] dump config after ready, 4ms
+2019-03-29 18:01:14,294 INFO 21874 [egg-watcher:application] watcher start success
+2019-03-29 18:01:33,944 INFO 21875 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:01:33,983 INFO 21875 [egg-multipart] stream mode enable
+2019-03-29 18:01:34,497 INFO 21875 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:01:34,500 INFO 21875 [egg-security] use methodnoallow middleware
+2019-03-29 18:01:34,500 INFO 21875 [egg-security] use noopen middleware
+2019-03-29 18:01:34,501 INFO 21875 [egg-security] use nosniff middleware
+2019-03-29 18:01:34,502 INFO 21875 [egg-security] use xssProtection middleware
+2019-03-29 18:01:34,503 INFO 21875 [egg-security] use xframe middleware
+2019-03-29 18:01:34,504 INFO 21875 [egg-security] use dta middleware
+2019-03-29 18:01:34,504 INFO 21875 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:01:34,525 INFO 21875 [egg:core] dump config after load, 11ms
+2019-03-29 18:01:34,582 INFO 21875 [egg:core] dump config after ready, 5ms
+2019-03-29 18:01:34,586 INFO 21875 [egg-watcher:application] watcher start success
+2019-03-29 18:01:35,323 INFO 21876 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:01:35,354 INFO 21876 [egg-multipart] stream mode enable
+2019-03-29 18:01:35,582 INFO 21876 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:01:35,587 INFO 21876 [egg-security] use methodnoallow middleware
+2019-03-29 18:01:35,587 INFO 21876 [egg-security] use noopen middleware
+2019-03-29 18:01:35,587 INFO 21876 [egg-security] use nosniff middleware
+2019-03-29 18:01:35,588 INFO 21876 [egg-security] use xssProtection middleware
+2019-03-29 18:01:35,588 INFO 21876 [egg-security] use xframe middleware
+2019-03-29 18:01:35,588 INFO 21876 [egg-security] use dta middleware
+2019-03-29 18:01:35,588 INFO 21876 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:01:35,596 INFO 21876 [egg:core] dump config after load, 4ms
+2019-03-29 18:01:35,643 INFO 21876 [egg:core] dump config after ready, 3ms
+2019-03-29 18:01:35,647 INFO 21876 [egg-watcher:application] watcher start success
+2019-03-29 18:01:39,949 INFO 21877 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:01:39,980 INFO 21877 [egg-multipart] stream mode enable
+2019-03-29 18:01:40,218 INFO 21877 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:01:40,220 INFO 21877 [egg-security] use methodnoallow middleware
+2019-03-29 18:01:40,220 INFO 21877 [egg-security] use noopen middleware
+2019-03-29 18:01:40,220 INFO 21877 [egg-security] use nosniff middleware
+2019-03-29 18:01:40,221 INFO 21877 [egg-security] use xssProtection middleware
+2019-03-29 18:01:40,221 INFO 21877 [egg-security] use xframe middleware
+2019-03-29 18:01:40,221 INFO 21877 [egg-security] use dta middleware
+2019-03-29 18:01:40,221 INFO 21877 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:01:40,229 INFO 21877 [egg:core] dump config after load, 4ms
+2019-03-29 18:01:40,276 INFO 21877 [egg:core] dump config after ready, 3ms
+2019-03-29 18:01:40,280 INFO 21877 [egg-watcher:application] watcher start success
+2019-03-29 18:01:41,047 INFO 21882 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:01:41,079 INFO 21882 [egg-multipart] stream mode enable
+2019-03-29 18:01:41,312 INFO 21882 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:01:41,314 INFO 21882 [egg-security] use methodnoallow middleware
+2019-03-29 18:01:41,315 INFO 21882 [egg-security] use noopen middleware
+2019-03-29 18:01:41,315 INFO 21882 [egg-security] use nosniff middleware
+2019-03-29 18:01:41,315 INFO 21882 [egg-security] use xssProtection middleware
+2019-03-29 18:01:41,316 INFO 21882 [egg-security] use xframe middleware
+2019-03-29 18:01:41,316 INFO 21882 [egg-security] use dta middleware
+2019-03-29 18:01:41,316 INFO 21882 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:01:41,332 INFO 21882 [egg:core] dump config after load, 5ms
+2019-03-29 18:01:41,383 INFO 21882 [egg:core] dump config after ready, 4ms
+2019-03-29 18:01:41,387 INFO 21882 [egg-watcher:application] watcher start success
+2019-03-29 18:01:50,249 INFO 21884 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:01:50,296 INFO 21884 [egg-multipart] stream mode enable
+2019-03-29 18:01:50,707 INFO 21884 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:01:50,709 INFO 21884 [egg-security] use methodnoallow middleware
+2019-03-29 18:01:50,709 INFO 21884 [egg-security] use noopen middleware
+2019-03-29 18:01:50,710 INFO 21884 [egg-security] use nosniff middleware
+2019-03-29 18:01:50,710 INFO 21884 [egg-security] use xssProtection middleware
+2019-03-29 18:01:50,710 INFO 21884 [egg-security] use xframe middleware
+2019-03-29 18:01:50,710 INFO 21884 [egg-security] use dta middleware
+2019-03-29 18:01:50,711 INFO 21884 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:01:50,722 INFO 21884 [egg:core] dump config after load, 3ms
+2019-03-29 18:01:50,775 INFO 21884 [egg:core] dump config after ready, 5ms
+2019-03-29 18:01:50,779 INFO 21884 [egg-watcher:application] watcher start success
+2019-03-29 18:01:51,542 INFO 21885 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:01:51,577 INFO 21885 [egg-multipart] stream mode enable
+2019-03-29 18:01:51,847 INFO 21885 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:01:51,848 INFO 21885 [egg-security] use methodnoallow middleware
+2019-03-29 18:01:51,849 INFO 21885 [egg-security] use noopen middleware
+2019-03-29 18:01:51,849 INFO 21885 [egg-security] use nosniff middleware
+2019-03-29 18:01:51,850 INFO 21885 [egg-security] use xssProtection middleware
+2019-03-29 18:01:51,851 INFO 21885 [egg-security] use xframe middleware
+2019-03-29 18:01:51,852 INFO 21885 [egg-security] use dta middleware
+2019-03-29 18:01:51,852 INFO 21885 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:01:51,870 INFO 21885 [egg:core] dump config after load, 7ms
+2019-03-29 18:01:51,925 INFO 21885 [egg:core] dump config after ready, 5ms
+2019-03-29 18:01:51,929 INFO 21885 [egg-watcher:application] watcher start success
+2019-03-29 18:03:14,785 INFO 21887 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:03:14,829 INFO 21887 [egg-multipart] stream mode enable
+2019-03-29 18:03:15,348 INFO 21887 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:03:15,350 INFO 21887 [egg-security] use methodnoallow middleware
+2019-03-29 18:03:15,351 INFO 21887 [egg-security] use noopen middleware
+2019-03-29 18:03:15,353 INFO 21887 [egg-security] use nosniff middleware
+2019-03-29 18:03:15,353 INFO 21887 [egg-security] use xssProtection middleware
+2019-03-29 18:03:15,354 INFO 21887 [egg-security] use xframe middleware
+2019-03-29 18:03:15,355 INFO 21887 [egg-security] use dta middleware
+2019-03-29 18:03:15,355 INFO 21887 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:03:15,374 INFO 21887 [egg:core] dump config after load, 7ms
+2019-03-29 18:03:15,419 INFO 21887 [egg:core] dump config after ready, 5ms
+2019-03-29 18:03:15,423 INFO 21887 [egg-watcher:application] watcher start success
+2019-03-29 18:03:16,183 INFO 21888 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:03:16,223 INFO 21888 [egg-multipart] stream mode enable
+2019-03-29 18:03:16,498 INFO 21888 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:03:16,500 INFO 21888 [egg-security] use methodnoallow middleware
+2019-03-29 18:03:16,500 INFO 21888 [egg-security] use noopen middleware
+2019-03-29 18:03:16,501 INFO 21888 [egg-security] use nosniff middleware
+2019-03-29 18:03:16,501 INFO 21888 [egg-security] use xssProtection middleware
+2019-03-29 18:03:16,501 INFO 21888 [egg-security] use xframe middleware
+2019-03-29 18:03:16,501 INFO 21888 [egg-security] use dta middleware
+2019-03-29 18:03:16,501 INFO 21888 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:03:16,513 INFO 21888 [egg:core] dump config after load, 7ms
+2019-03-29 18:03:16,561 INFO 21888 [egg:core] dump config after ready, 4ms
+2019-03-29 18:03:16,566 INFO 21888 [egg-watcher:application] watcher start success
+2019-03-29 18:04:02,770 INFO 21893 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:04:02,811 INFO 21893 [egg-multipart] stream mode enable
+2019-03-29 18:04:03,306 INFO 21893 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:04:03,309 INFO 21893 [egg-security] use methodnoallow middleware
+2019-03-29 18:04:03,310 INFO 21893 [egg-security] use noopen middleware
+2019-03-29 18:04:03,311 INFO 21893 [egg-security] use nosniff middleware
+2019-03-29 18:04:03,312 INFO 21893 [egg-security] use xssProtection middleware
+2019-03-29 18:04:03,313 INFO 21893 [egg-security] use xframe middleware
+2019-03-29 18:04:03,314 INFO 21893 [egg-security] use dta middleware
+2019-03-29 18:04:03,314 INFO 21893 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:04:03,331 INFO 21893 [egg:core] dump config after load, 8ms
+2019-03-29 18:04:03,377 INFO 21893 [egg-watcher:application] watcher start success
+2019-03-29 18:04:03,412 INFO 21893 [egg:core] dump config after ready, 6ms
+2019-03-29 18:04:04,135 INFO 21894 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:04:04,172 INFO 21894 [egg-multipart] stream mode enable
+2019-03-29 18:04:04,406 INFO 21894 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:04:04,408 INFO 21894 [egg-security] use methodnoallow middleware
+2019-03-29 18:04:04,408 INFO 21894 [egg-security] use noopen middleware
+2019-03-29 18:04:04,408 INFO 21894 [egg-security] use nosniff middleware
+2019-03-29 18:04:04,409 INFO 21894 [egg-security] use xssProtection middleware
+2019-03-29 18:04:04,409 INFO 21894 [egg-security] use xframe middleware
+2019-03-29 18:04:04,409 INFO 21894 [egg-security] use dta middleware
+2019-03-29 18:04:04,409 INFO 21894 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:04:04,422 INFO 21894 [egg:core] dump config after load, 4ms
+2019-03-29 18:04:04,473 INFO 21894 [egg-watcher:application] watcher start success
+2019-03-29 18:04:04,493 INFO 21894 [egg:core] dump config after ready, 6ms
+2019-03-29 18:04:10,029 INFO 21895 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:04:10,064 INFO 21895 [egg-multipart] stream mode enable
+2019-03-29 18:04:10,309 INFO 21895 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:04:10,312 INFO 21895 [egg-security] use methodnoallow middleware
+2019-03-29 18:04:10,312 INFO 21895 [egg-security] use noopen middleware
+2019-03-29 18:04:10,313 INFO 21895 [egg-security] use nosniff middleware
+2019-03-29 18:04:10,313 INFO 21895 [egg-security] use xssProtection middleware
+2019-03-29 18:04:10,313 INFO 21895 [egg-security] use xframe middleware
+2019-03-29 18:04:10,314 INFO 21895 [egg-security] use dta middleware
+2019-03-29 18:04:10,314 INFO 21895 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:04:10,335 INFO 21895 [egg:core] dump config after load, 5ms
+2019-03-29 18:04:10,398 INFO 21895 [egg-watcher:application] watcher start success
+2019-03-29 18:04:10,421 INFO 21895 [egg:core] dump config after ready, 4ms
+2019-03-29 18:04:11,279 INFO 21897 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:04:11,316 INFO 21897 [egg-multipart] stream mode enable
+2019-03-29 18:04:11,564 INFO 21897 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:04:11,566 INFO 21897 [egg-security] use methodnoallow middleware
+2019-03-29 18:04:11,566 INFO 21897 [egg-security] use noopen middleware
+2019-03-29 18:04:11,567 INFO 21897 [egg-security] use nosniff middleware
+2019-03-29 18:04:11,567 INFO 21897 [egg-security] use xssProtection middleware
+2019-03-29 18:04:11,567 INFO 21897 [egg-security] use xframe middleware
+2019-03-29 18:04:11,567 INFO 21897 [egg-security] use dta middleware
+2019-03-29 18:04:11,567 INFO 21897 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:04:11,581 INFO 21897 [egg:core] dump config after load, 7ms
+2019-03-29 18:04:11,628 INFO 21897 [egg-watcher:application] watcher start success
+2019-03-29 18:04:11,649 INFO 21897 [egg:core] dump config after ready, 5ms
+2019-03-29 18:04:27,758 INFO 21906 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:04:27,792 INFO 21906 [egg-multipart] stream mode enable
+2019-03-29 18:04:28,021 INFO 21906 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:04:28,023 INFO 21906 [egg-security] use methodnoallow middleware
+2019-03-29 18:04:28,023 INFO 21906 [egg-security] use noopen middleware
+2019-03-29 18:04:28,024 INFO 21906 [egg-security] use nosniff middleware
+2019-03-29 18:04:28,024 INFO 21906 [egg-security] use xssProtection middleware
+2019-03-29 18:04:28,025 INFO 21906 [egg-security] use xframe middleware
+2019-03-29 18:04:28,025 INFO 21906 [egg-security] use dta middleware
+2019-03-29 18:04:28,025 INFO 21906 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:04:28,040 INFO 21906 [egg:core] dump config after load, 10ms
+2019-03-29 18:04:28,087 INFO 21906 [egg-watcher:application] watcher start success
+2019-03-29 18:04:28,121 INFO 21906 [egg:core] dump config after ready, 4ms
+2019-03-29 18:05:11,017 INFO 21939 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:05:11,060 INFO 21939 [egg-multipart] stream mode enable
+2019-03-29 18:05:11,561 INFO 21939 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:05:11,564 INFO 21939 [egg-security] use methodnoallow middleware
+2019-03-29 18:05:11,565 INFO 21939 [egg-security] use noopen middleware
+2019-03-29 18:05:11,566 INFO 21939 [egg-security] use nosniff middleware
+2019-03-29 18:05:11,567 INFO 21939 [egg-security] use xssProtection middleware
+2019-03-29 18:05:11,568 INFO 21939 [egg-security] use xframe middleware
+2019-03-29 18:05:11,569 INFO 21939 [egg-security] use dta middleware
+2019-03-29 18:05:11,569 INFO 21939 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:05:11,588 INFO 21939 [egg:core] dump config after load, 8ms
+2019-03-29 18:05:11,624 INFO 21939 [egg-watcher:application] watcher start success
+2019-03-29 18:05:11,661 INFO 21939 [egg:core] dump config after ready, 4ms
+2019-03-29 18:05:19,747 INFO 21952 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:05:19,788 INFO 21952 [egg-multipart] stream mode enable
+2019-03-29 18:05:20,251 INFO 21952 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:05:20,254 INFO 21952 [egg-security] use methodnoallow middleware
+2019-03-29 18:05:20,255 INFO 21952 [egg-security] use noopen middleware
+2019-03-29 18:05:20,256 INFO 21952 [egg-security] use nosniff middleware
+2019-03-29 18:05:20,257 INFO 21952 [egg-security] use xssProtection middleware
+2019-03-29 18:05:20,258 INFO 21952 [egg-security] use xframe middleware
+2019-03-29 18:05:20,259 INFO 21952 [egg-security] use dta middleware
+2019-03-29 18:05:20,259 INFO 21952 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:05:20,275 INFO 21952 [egg:core] dump config after load, 7ms
+2019-03-29 18:05:20,329 INFO 21952 [egg-watcher:application] watcher start success
+2019-03-29 18:05:20,351 INFO 21952 [egg:core] dump config after ready, 5ms
+2019-03-29 18:08:00,171 INFO 22000 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:08:00,219 INFO 22000 [egg-multipart] stream mode enable
+2019-03-29 18:08:00,742 INFO 22000 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:08:00,745 INFO 22000 [egg-security] use methodnoallow middleware
+2019-03-29 18:08:00,747 INFO 22000 [egg-security] use noopen middleware
+2019-03-29 18:08:00,748 INFO 22000 [egg-security] use nosniff middleware
+2019-03-29 18:08:00,749 INFO 22000 [egg-security] use xssProtection middleware
+2019-03-29 18:08:00,750 INFO 22000 [egg-security] use xframe middleware
+2019-03-29 18:08:00,750 INFO 22000 [egg-security] use dta middleware
+2019-03-29 18:08:00,750 INFO 22000 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:08:00,768 INFO 22000 [egg:core] dump config after load, 8ms
+2019-03-29 18:08:00,822 INFO 22000 [egg-watcher:application] watcher start success
+2019-03-29 18:08:00,847 INFO 22000 [egg:core] dump config after ready, 6ms
+2019-03-29 18:08:15,680 INFO 22007 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:08:15,721 INFO 22007 [egg-multipart] stream mode enable
+2019-03-29 18:08:16,156 INFO 22007 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:08:16,160 INFO 22007 [egg-security] use methodnoallow middleware
+2019-03-29 18:08:16,161 INFO 22007 [egg-security] use noopen middleware
+2019-03-29 18:08:16,162 INFO 22007 [egg-security] use nosniff middleware
+2019-03-29 18:08:16,162 INFO 22007 [egg-security] use xssProtection middleware
+2019-03-29 18:08:16,163 INFO 22007 [egg-security] use xframe middleware
+2019-03-29 18:08:16,164 INFO 22007 [egg-security] use dta middleware
+2019-03-29 18:08:16,164 INFO 22007 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:08:16,182 INFO 22007 [egg:core] dump config after load, 9ms
+2019-03-29 18:08:16,219 INFO 22007 [egg-watcher:application] watcher start success
+2019-03-29 18:08:16,252 INFO 22007 [egg:core] dump config after ready, 5ms
+2019-03-29 18:08:27,982 INFO 22012 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:08:28,022 INFO 22012 [egg-multipart] stream mode enable
+2019-03-29 18:08:28,469 INFO 22012 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:08:28,472 INFO 22012 [egg-security] use methodnoallow middleware
+2019-03-29 18:08:28,472 INFO 22012 [egg-security] use noopen middleware
+2019-03-29 18:08:28,473 INFO 22012 [egg-security] use nosniff middleware
+2019-03-29 18:08:28,474 INFO 22012 [egg-security] use xssProtection middleware
+2019-03-29 18:08:28,475 INFO 22012 [egg-security] use xframe middleware
+2019-03-29 18:08:28,476 INFO 22012 [egg-security] use dta middleware
+2019-03-29 18:08:28,476 INFO 22012 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:08:28,491 INFO 22012 [egg:core] dump config after load, 7ms
+2019-03-29 18:08:28,554 INFO 22012 [egg-watcher:application] watcher start success
+2019-03-29 18:08:28,576 INFO 22012 [egg:core] dump config after ready, 3ms
+2019-03-29 18:10:54,729 INFO 22020 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:10:54,772 INFO 22020 [egg-multipart] stream mode enable
+2019-03-29 18:10:55,286 INFO 22020 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:10:55,289 INFO 22020 [egg-security] use methodnoallow middleware
+2019-03-29 18:10:55,290 INFO 22020 [egg-security] use noopen middleware
+2019-03-29 18:10:55,292 INFO 22020 [egg-security] use nosniff middleware
+2019-03-29 18:10:55,293 INFO 22020 [egg-security] use xssProtection middleware
+2019-03-29 18:10:55,294 INFO 22020 [egg-security] use xframe middleware
+2019-03-29 18:10:55,295 INFO 22020 [egg-security] use dta middleware
+2019-03-29 18:10:55,295 INFO 22020 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:10:55,314 INFO 22020 [egg:core] dump config after load, 4ms
+2019-03-29 18:10:55,368 INFO 22020 [egg-watcher:application] watcher start success
+2019-03-29 18:10:55,395 INFO 22020 [egg:core] dump config after ready, 5ms
+2019-03-29 18:10:56,149 INFO 22021 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:10:56,186 INFO 22021 [egg-multipart] stream mode enable
+2019-03-29 18:10:56,425 INFO 22021 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:10:56,427 INFO 22021 [egg-security] use methodnoallow middleware
+2019-03-29 18:10:56,428 INFO 22021 [egg-security] use noopen middleware
+2019-03-29 18:10:56,428 INFO 22021 [egg-security] use nosniff middleware
+2019-03-29 18:10:56,429 INFO 22021 [egg-security] use xssProtection middleware
+2019-03-29 18:10:56,429 INFO 22021 [egg-security] use xframe middleware
+2019-03-29 18:10:56,429 INFO 22021 [egg-security] use dta middleware
+2019-03-29 18:10:56,429 INFO 22021 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:10:56,441 INFO 22021 [egg:core] dump config after load, 8ms
+2019-03-29 18:10:56,487 INFO 22021 [egg-watcher:application] watcher start success
+2019-03-29 18:10:56,509 INFO 22021 [egg:core] dump config after ready, 4ms
+2019-03-29 18:11:03,431 INFO 22026 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:11:03,464 INFO 22026 [egg-multipart] stream mode enable
+2019-03-29 18:11:03,719 INFO 22026 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:11:03,721 INFO 22026 [egg-security] use methodnoallow middleware
+2019-03-29 18:11:03,721 INFO 22026 [egg-security] use noopen middleware
+2019-03-29 18:11:03,722 INFO 22026 [egg-security] use nosniff middleware
+2019-03-29 18:11:03,722 INFO 22026 [egg-security] use xssProtection middleware
+2019-03-29 18:11:03,722 INFO 22026 [egg-security] use xframe middleware
+2019-03-29 18:11:03,722 INFO 22026 [egg-security] use dta middleware
+2019-03-29 18:11:03,722 INFO 22026 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:11:03,735 INFO 22026 [egg:core] dump config after load, 7ms
+2019-03-29 18:11:03,779 INFO 22026 [egg-watcher:application] watcher start success
+2019-03-29 18:11:03,801 INFO 22026 [egg:core] dump config after ready, 4ms
+2019-03-29 18:11:04,517 INFO 22027 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:11:04,549 INFO 22027 [egg-multipart] stream mode enable
+2019-03-29 18:11:04,777 INFO 22027 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:11:04,779 INFO 22027 [egg-security] use methodnoallow middleware
+2019-03-29 18:11:04,779 INFO 22027 [egg-security] use noopen middleware
+2019-03-29 18:11:04,780 INFO 22027 [egg-security] use nosniff middleware
+2019-03-29 18:11:04,780 INFO 22027 [egg-security] use xssProtection middleware
+2019-03-29 18:11:04,781 INFO 22027 [egg-security] use xframe middleware
+2019-03-29 18:11:04,781 INFO 22027 [egg-security] use dta middleware
+2019-03-29 18:11:04,781 INFO 22027 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:11:04,796 INFO 22027 [egg:core] dump config after load, 8ms
+2019-03-29 18:11:04,841 INFO 22027 [egg-watcher:application] watcher start success
+2019-03-29 18:11:04,860 INFO 22027 [egg:core] dump config after ready, 3ms
+2019-03-29 18:11:23,288 INFO 22033 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:11:23,334 INFO 22033 [egg-multipart] stream mode enable
+2019-03-29 18:11:23,604 INFO 22033 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:11:23,606 INFO 22033 [egg-security] use methodnoallow middleware
+2019-03-29 18:11:23,606 INFO 22033 [egg-security] use noopen middleware
+2019-03-29 18:11:23,607 INFO 22033 [egg-security] use nosniff middleware
+2019-03-29 18:11:23,607 INFO 22033 [egg-security] use xssProtection middleware
+2019-03-29 18:11:23,608 INFO 22033 [egg-security] use xframe middleware
+2019-03-29 18:11:23,608 INFO 22033 [egg-security] use dta middleware
+2019-03-29 18:11:23,608 INFO 22033 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:11:23,620 INFO 22033 [egg:core] dump config after load, 7ms
+2019-03-29 18:11:23,670 INFO 22033 [egg-watcher:application] watcher start success
+2019-03-29 18:11:23,698 INFO 22033 [egg:core] dump config after ready, 8ms
+2019-03-29 18:11:24,424 INFO 22034 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:11:24,458 INFO 22034 [egg-multipart] stream mode enable
+2019-03-29 18:11:24,690 INFO 22034 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:11:24,692 INFO 22034 [egg-security] use methodnoallow middleware
+2019-03-29 18:11:24,692 INFO 22034 [egg-security] use noopen middleware
+2019-03-29 18:11:24,692 INFO 22034 [egg-security] use nosniff middleware
+2019-03-29 18:11:24,693 INFO 22034 [egg-security] use xssProtection middleware
+2019-03-29 18:11:24,693 INFO 22034 [egg-security] use xframe middleware
+2019-03-29 18:11:24,693 INFO 22034 [egg-security] use dta middleware
+2019-03-29 18:11:24,693 INFO 22034 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:11:24,706 INFO 22034 [egg:core] dump config after load, 6ms
+2019-03-29 18:11:24,750 INFO 22034 [egg-watcher:application] watcher start success
+2019-03-29 18:11:24,771 INFO 22034 [egg:core] dump config after ready, 5ms
+2019-03-29 18:18:31,152 INFO 22074 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:18:31,194 INFO 22074 [egg-multipart] stream mode enable
+2019-03-29 18:18:31,704 INFO 22074 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:18:31,707 INFO 22074 [egg-security] use methodnoallow middleware
+2019-03-29 18:18:31,708 INFO 22074 [egg-security] use noopen middleware
+2019-03-29 18:18:31,709 INFO 22074 [egg-security] use nosniff middleware
+2019-03-29 18:18:31,710 INFO 22074 [egg-security] use xssProtection middleware
+2019-03-29 18:18:31,711 INFO 22074 [egg-security] use xframe middleware
+2019-03-29 18:18:31,712 INFO 22074 [egg-security] use dta middleware
+2019-03-29 18:18:31,712 INFO 22074 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:18:31,731 INFO 22074 [egg:core] dump config after load, 8ms
+2019-03-29 18:18:31,774 INFO 22074 [egg-watcher:application] watcher start success
+2019-03-29 18:18:31,817 INFO 22074 [egg:core] dump config after ready, 7ms
+2019-03-29 18:18:32,566 INFO 22075 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:18:32,600 INFO 22075 [egg-multipart] stream mode enable
+2019-03-29 18:18:32,863 INFO 22075 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:18:32,867 INFO 22075 [egg-security] use methodnoallow middleware
+2019-03-29 18:18:32,867 INFO 22075 [egg-security] use noopen middleware
+2019-03-29 18:18:32,869 INFO 22075 [egg-security] use nosniff middleware
+2019-03-29 18:18:32,869 INFO 22075 [egg-security] use xssProtection middleware
+2019-03-29 18:18:32,869 INFO 22075 [egg-security] use xframe middleware
+2019-03-29 18:18:32,869 INFO 22075 [egg-security] use dta middleware
+2019-03-29 18:18:32,869 INFO 22075 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:18:32,890 INFO 22075 [egg:core] dump config after load, 5ms
+2019-03-29 18:18:32,951 INFO 22075 [egg-watcher:application] watcher start success
+2019-03-29 18:18:32,974 INFO 22075 [egg:core] dump config after ready, 4ms
+2019-03-29 18:19:01,720 INFO 22082 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:19:01,758 INFO 22082 [egg-multipart] stream mode enable
+2019-03-29 18:19:02,293 INFO 22082 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:19:02,296 INFO 22082 [egg-security] use methodnoallow middleware
+2019-03-29 18:19:02,297 INFO 22082 [egg-security] use noopen middleware
+2019-03-29 18:19:02,299 INFO 22082 [egg-security] use nosniff middleware
+2019-03-29 18:19:02,300 INFO 22082 [egg-security] use xssProtection middleware
+2019-03-29 18:19:02,301 INFO 22082 [egg-security] use xframe middleware
+2019-03-29 18:19:02,302 INFO 22082 [egg-security] use dta middleware
+2019-03-29 18:19:02,302 INFO 22082 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:19:02,325 INFO 22082 [egg:core] dump config after load, 5ms
+2019-03-29 18:19:02,364 INFO 22082 [egg-watcher:application] watcher start success
+2019-03-29 18:19:02,401 INFO 22082 [egg:core] dump config after ready, 6ms
+2019-03-29 18:21:20,227 INFO 22093 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:21:20,268 INFO 22093 [egg-multipart] stream mode enable
+2019-03-29 18:21:20,790 INFO 22093 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:21:20,793 INFO 22093 [egg-security] use methodnoallow middleware
+2019-03-29 18:21:20,794 INFO 22093 [egg-security] use noopen middleware
+2019-03-29 18:21:20,795 INFO 22093 [egg-security] use nosniff middleware
+2019-03-29 18:21:20,796 INFO 22093 [egg-security] use xssProtection middleware
+2019-03-29 18:21:20,797 INFO 22093 [egg-security] use xframe middleware
+2019-03-29 18:21:20,798 INFO 22093 [egg-security] use dta middleware
+2019-03-29 18:21:20,798 INFO 22093 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:21:20,821 INFO 22093 [egg:core] dump config after load, 11ms
+2019-03-29 18:21:20,859 INFO 22093 [egg-watcher:application] watcher start success
+2019-03-29 18:21:20,898 INFO 22093 [egg:core] dump config after ready, 9ms
+2019-03-29 18:21:21,638 INFO 22098 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:21:21,677 INFO 22098 [egg-multipart] stream mode enable
+2019-03-29 18:21:21,952 INFO 22098 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:21:21,956 INFO 22098 [egg-security] use methodnoallow middleware
+2019-03-29 18:21:21,956 INFO 22098 [egg-security] use noopen middleware
+2019-03-29 18:21:21,957 INFO 22098 [egg-security] use nosniff middleware
+2019-03-29 18:21:21,957 INFO 22098 [egg-security] use xssProtection middleware
+2019-03-29 18:21:21,957 INFO 22098 [egg-security] use xframe middleware
+2019-03-29 18:21:21,957 INFO 22098 [egg-security] use dta middleware
+2019-03-29 18:21:21,957 INFO 22098 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:21:21,970 INFO 22098 [egg:core] dump config after load, 7ms
+2019-03-29 18:21:22,013 INFO 22098 [egg-watcher:application] watcher start success
+2019-03-29 18:21:22,047 INFO 22098 [egg:core] dump config after ready, 4ms
+2019-03-29 18:35:51,319 INFO 22142 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:35:51,369 INFO 22142 [egg-multipart] stream mode enable
+2019-03-29 18:35:51,849 INFO 22142 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:35:51,852 INFO 22142 [egg-security] use methodnoallow middleware
+2019-03-29 18:35:51,853 INFO 22142 [egg-security] use noopen middleware
+2019-03-29 18:35:51,854 INFO 22142 [egg-security] use nosniff middleware
+2019-03-29 18:35:51,855 INFO 22142 [egg-security] use xssProtection middleware
+2019-03-29 18:35:51,856 INFO 22142 [egg-security] use xframe middleware
+2019-03-29 18:35:51,857 INFO 22142 [egg-security] use dta middleware
+2019-03-29 18:35:51,857 INFO 22142 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:35:51,877 INFO 22142 [egg:core] dump config after load, 6ms
+2019-03-29 18:35:51,926 INFO 22142 [egg-watcher:application] watcher start success
+2019-03-29 18:35:51,968 INFO 22142 [egg:core] dump config after ready, 7ms
+2019-03-29 18:36:50,701 INFO 22148 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:36:50,746 INFO 22148 [egg-multipart] stream mode enable
+2019-03-29 18:36:51,238 INFO 22148 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:36:51,241 INFO 22148 [egg-security] use methodnoallow middleware
+2019-03-29 18:36:51,241 INFO 22148 [egg-security] use noopen middleware
+2019-03-29 18:36:51,242 INFO 22148 [egg-security] use nosniff middleware
+2019-03-29 18:36:51,243 INFO 22148 [egg-security] use xssProtection middleware
+2019-03-29 18:36:51,243 INFO 22148 [egg-security] use xframe middleware
+2019-03-29 18:36:51,244 INFO 22148 [egg-security] use dta middleware
+2019-03-29 18:36:51,244 INFO 22148 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:36:51,266 INFO 22148 [egg:core] dump config after load, 6ms
+2019-03-29 18:36:51,307 INFO 22148 [egg-watcher:application] watcher start success
+2019-03-29 18:36:51,345 INFO 22148 [egg:core] dump config after ready, 7ms
+2019-03-29 18:37:52,291 INFO 22152 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:37:52,333 INFO 22152 [egg-multipart] stream mode enable
+2019-03-29 18:37:52,822 INFO 22152 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:37:52,824 INFO 22152 [egg-security] use methodnoallow middleware
+2019-03-29 18:37:52,825 INFO 22152 [egg-security] use noopen middleware
+2019-03-29 18:37:52,826 INFO 22152 [egg-security] use nosniff middleware
+2019-03-29 18:37:52,827 INFO 22152 [egg-security] use xssProtection middleware
+2019-03-29 18:37:52,828 INFO 22152 [egg-security] use xframe middleware
+2019-03-29 18:37:52,829 INFO 22152 [egg-security] use dta middleware
+2019-03-29 18:37:52,829 INFO 22152 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:37:52,851 INFO 22152 [egg:core] dump config after load, 10ms
+2019-03-29 18:37:52,889 INFO 22152 [egg-watcher:application] watcher start success
+2019-03-29 18:37:52,929 INFO 22152 [egg:core] dump config after ready, 6ms
+2019-03-29 18:38:08,303 INFO 22158 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:38:08,345 INFO 22158 [egg-multipart] stream mode enable
+2019-03-29 18:38:08,832 INFO 22158 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:38:08,835 INFO 22158 [egg-security] use methodnoallow middleware
+2019-03-29 18:38:08,836 INFO 22158 [egg-security] use noopen middleware
+2019-03-29 18:38:08,838 INFO 22158 [egg-security] use nosniff middleware
+2019-03-29 18:38:08,839 INFO 22158 [egg-security] use xssProtection middleware
+2019-03-29 18:38:08,840 INFO 22158 [egg-security] use xframe middleware
+2019-03-29 18:38:08,840 INFO 22158 [egg-security] use dta middleware
+2019-03-29 18:38:08,841 INFO 22158 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:38:08,862 INFO 22158 [egg:core] dump config after load, 10ms
+2019-03-29 18:38:08,906 INFO 22158 [egg-watcher:application] watcher start success
+2019-03-29 18:38:08,948 INFO 22158 [egg:core] dump config after ready, 7ms
+2019-03-29 18:41:46,431 INFO 22174 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:41:46,478 INFO 22174 [egg-multipart] stream mode enable
+2019-03-29 18:41:47,016 INFO 22174 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:41:47,019 INFO 22174 [egg-security] use methodnoallow middleware
+2019-03-29 18:41:47,019 INFO 22174 [egg-security] use noopen middleware
+2019-03-29 18:41:47,020 INFO 22174 [egg-security] use nosniff middleware
+2019-03-29 18:41:47,021 INFO 22174 [egg-security] use xssProtection middleware
+2019-03-29 18:41:47,022 INFO 22174 [egg-security] use xframe middleware
+2019-03-29 18:41:47,023 INFO 22174 [egg-security] use dta middleware
+2019-03-29 18:41:47,023 INFO 22174 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:41:47,046 INFO 22174 [egg:core] dump config after load, 12ms
+2019-03-29 18:41:47,086 INFO 22174 [egg-watcher:application] watcher start success
+2019-03-29 18:41:47,122 INFO 22174 [egg:core] dump config after ready, 6ms
+2019-03-29 18:42:23,688 INFO 22181 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:42:23,727 INFO 22181 [egg-multipart] stream mode enable
+2019-03-29 18:42:24,221 INFO 22181 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:42:24,224 INFO 22181 [egg-security] use methodnoallow middleware
+2019-03-29 18:42:24,225 INFO 22181 [egg-security] use noopen middleware
+2019-03-29 18:42:24,226 INFO 22181 [egg-security] use nosniff middleware
+2019-03-29 18:42:24,227 INFO 22181 [egg-security] use xssProtection middleware
+2019-03-29 18:42:24,228 INFO 22181 [egg-security] use xframe middleware
+2019-03-29 18:42:24,228 INFO 22181 [egg-security] use dta middleware
+2019-03-29 18:42:24,228 INFO 22181 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:42:24,251 INFO 22181 [egg:core] dump config after load, 12ms
+2019-03-29 18:42:24,309 INFO 22181 [egg-watcher:application] watcher start success
+2019-03-29 18:42:24,329 INFO 22181 [egg:core] dump config after ready, 4ms
+2019-03-29 18:43:09,978 INFO 22182 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:43:10,021 INFO 22182 [egg-multipart] stream mode enable
+2019-03-29 18:43:10,504 INFO 22182 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:43:10,507 INFO 22182 [egg-security] use methodnoallow middleware
+2019-03-29 18:43:10,507 INFO 22182 [egg-security] use noopen middleware
+2019-03-29 18:43:10,508 INFO 22182 [egg-security] use nosniff middleware
+2019-03-29 18:43:10,509 INFO 22182 [egg-security] use xssProtection middleware
+2019-03-29 18:43:10,510 INFO 22182 [egg-security] use xframe middleware
+2019-03-29 18:43:10,510 INFO 22182 [egg-security] use dta middleware
+2019-03-29 18:43:10,511 INFO 22182 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:43:10,531 INFO 22182 [egg:core] dump config after load, 6ms
+2019-03-29 18:43:10,594 INFO 22182 [egg-watcher:application] watcher start success
+2019-03-29 18:43:10,616 INFO 22182 [egg:core] dump config after ready, 4ms
+2019-03-29 18:44:06,219 INFO 22192 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:44:06,250 INFO 22192 [egg-multipart] stream mode enable
+2019-03-29 18:44:06,492 INFO 22192 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:44:06,494 INFO 22192 [egg-security] use methodnoallow middleware
+2019-03-29 18:44:06,494 INFO 22192 [egg-security] use noopen middleware
+2019-03-29 18:44:06,494 INFO 22192 [egg-security] use nosniff middleware
+2019-03-29 18:44:06,495 INFO 22192 [egg-security] use xssProtection middleware
+2019-03-29 18:44:06,495 INFO 22192 [egg-security] use xframe middleware
+2019-03-29 18:44:06,495 INFO 22192 [egg-security] use dta middleware
+2019-03-29 18:44:06,495 INFO 22192 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:44:06,512 INFO 22192 [egg:core] dump config after load, 7ms
+2019-03-29 18:44:06,551 INFO 22192 [egg-watcher:application] watcher start success
+2019-03-29 18:44:06,579 INFO 22192 [egg:core] dump config after ready, 5ms
+2019-03-29 18:54:59,091 INFO 23396 [egg:logger] init all loggers with options: {"dir":"/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mall-service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-29 18:54:59,133 INFO 23396 [egg-multipart] stream mode enable
+2019-03-29 18:54:59,735 INFO 23396 [egg-static] starting static serve /public/ -> /Users/yangfan/Desktop/yf/my-mall/mall-service/app/public
+2019-03-29 18:54:59,739 INFO 23396 [egg-security] use methodnoallow middleware
+2019-03-29 18:54:59,740 INFO 23396 [egg-security] use noopen middleware
+2019-03-29 18:54:59,741 INFO 23396 [egg-security] use nosniff middleware
+2019-03-29 18:54:59,742 INFO 23396 [egg-security] use xssProtection middleware
+2019-03-29 18:54:59,743 INFO 23396 [egg-security] use xframe middleware
+2019-03-29 18:54:59,744 INFO 23396 [egg-security] use dta middleware
+2019-03-29 18:54:59,744 INFO 23396 [egg-security] compose 6 middlewares into one security middleware
+2019-03-29 18:54:59,769 INFO 23396 [egg:core] dump config after load, 14ms
+2019-03-29 18:54:59,809 INFO 23396 [egg-watcher:application] watcher start success
+2019-03-29 18:54:59,850 INFO 23396 [egg:core] dump config after ready, 8ms
+2019-03-29 20:07:48,276 WARN 23396 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-29 20:47:34,419 WARN 23396 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-29 23:46:51,699 WARN 23396 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-30 01:47:49,863 WARN 23396 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-30 01:47:49,863 WARN 23396 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-30 03:48:51,464 WARN 23396 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-30 03:48:51,466 WARN 23396 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-30 05:49:29,604 WARN 23396 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-30 07:50:48,602 WARN 23396 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-30 09:51:27,636 WARN 23396 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-30 09:51:27,636 WARN 23396 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-30 10:10:52,977 WARN 23396 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-30 11:39:31,616 INFO 23396 [egg-logrotator] clean all log before 31 days
+2019-03-30 11:39:32,536 INFO 23396 [egg-logrotator] broadcast log-reload
+2019-03-30 11:39:32,536 INFO 23396 [egg-logrotator] rotate files success by DayRotator, files ["/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service/common-error.log -> /Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service/common-error.log.2019-03-29","/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service/mall-service-web.log -> /Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service/mall-service-web.log.2019-03-29","/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service/egg-web.log -> /Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service/egg-web.log.2019-03-29","/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service/egg-schedule.log -> /Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service/egg-schedule.log.2019-03-29","/Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service/egg-agent.log -> /Users/yangfan/Desktop/yf/my-mall/mall-service/logs/mall-service/egg-agent.log.2019-03-29"]

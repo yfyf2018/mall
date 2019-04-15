@@ -1,0 +1,784 @@
+2019-03-28 14:29:28,843 ERROR 10196 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Utils.Promise.tap.then.catch.err (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:141:19)
+From previous event:
+    at ConnectionManager.connect (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:320:50)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at ConnectionManager._connect (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:320:8)
+    at ConnectionManager.getConnection (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:46)
+    at Promise.try (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:554:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:454:64)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:454:28)
+    at Sequelize.authenticate (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:783:17)
+    at authenticate (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 10196
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 14:29:32,289 ERROR 10199 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Utils.Promise.tap.then.catch.err (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:141:19)
+From previous event:
+    at ConnectionManager.connect (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:320:50)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at ConnectionManager._connect (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:320:8)
+    at ConnectionManager.getConnection (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:46)
+    at Promise.try (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:554:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:454:64)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:454:28)
+    at Sequelize.authenticate (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:783:17)
+    at authenticate (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 10199
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 14:37:26,934 INFO 10552 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 14:48:52,137 INFO 10620 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 14:51:20,130 INFO 10845 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 14:51:34,878 INFO 10851 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 14:54:39,842 INFO 10863 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 14:55:15,081 INFO 10868 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 14:57:06,472 INFO 10894 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 14:57:57,734 INFO 10918 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 14:58:19,312 INFO 10925 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 14:58:20,587 INFO 10926 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 14:59:14,075 INFO 10930 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 14:59:21,869 WARN 10930 [-/172.18.11.29/-/8ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-28 14:59:21,872 WARN 10930 [-/172.18.11.29/-/10ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10930
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 14:59:41,402 WARN 10930 [-/172.18.11.29/-/2ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-28 14:59:41,403 WARN 10930 [-/172.18.11.29/-/2ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10930
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 14:59:43,127 WARN 10930 [-/172.18.11.29/-/1ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-28 14:59:43,127 WARN 10930 [-/172.18.11.29/-/1ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10930
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 15:00:26,993 INFO 10943 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:00:29,832 WARN 10943 [-/172.18.11.29/-/8ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-28 15:00:29,835 WARN 10943 [-/172.18.11.29/-/10ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10943
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 15:00:47,386 WARN 10943 [-/172.18.11.29/-/1ms POST /] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-28 15:00:47,387 WARN 10943 [-/172.18.11.29/-/2ms POST /] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10943
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 15:00:50,379 WARN 10943 [-/172.18.11.29/-/1ms POST /] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-28 15:00:50,380 WARN 10943 [-/172.18.11.29/-/2ms POST /] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10943
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 15:00:51,973 WARN 10943 [-/172.18.11.29/-/0ms POST /] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-28 15:00:51,973 WARN 10943 [-/172.18.11.29/-/0ms POST /] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10943
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 15:01:07,442 WARN 10943 [-/172.18.11.29/-/0ms POST /] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-28 15:01:07,443 WARN 10943 [-/172.18.11.29/-/1ms POST /] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10943
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 15:01:09,438 WARN 10943 [-/172.18.11.29/-/0ms POST /] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-28 15:01:09,439 WARN 10943 [-/172.18.11.29/-/1ms POST /] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10943
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 15:02:27,832 INFO 11184 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:02:43,483 INFO 11185 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:02:52,528 INFO 11186 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:03:21,387 WARN 11186 [-/172.18.11.29/-/30ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-28 15:03:21,391 WARN 11186 [-/172.18.11.29/-/33ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11186
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 15:03:23,781 WARN 11186 [-/172.18.11.29/-/1ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-28 15:03:23,782 WARN 11186 [-/172.18.11.29/-/2ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11186
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 15:03:51,796 WARN 11186 [-/172.18.11.29/-/0ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-28 15:03:51,797 WARN 11186 [-/172.18.11.29/-/1ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11186
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 15:04:23,141 INFO 11193 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:04:23,236 WARN 11193 [-/172.18.11.29/-/16ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-03-28 15:04:23,239 WARN 11193 [-/172.18.11.29/-/18ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11193
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 15:05:25,704 INFO 11204 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:11:39,727 INFO 11467 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:11:48,585 INFO 11473 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:11:57,242 INFO 11475 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:16:52,409 INFO 11502 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:17:57,066 INFO 11514 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:23:28,202 INFO 11760 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:23:58,435 INFO 11765 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:24:27,773 INFO 11772 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:25:32,093 INFO 11784 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:25:52,694 INFO 11790 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:26:37,601 INFO 11795 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:26:48,511 INFO 11797 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:26:51,822 INFO 11797 [egg-sequelize](6ms) Executed (default): SELECT `user_id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '111' AND `users`.`password` = '';
+2019-03-28 15:27:13,490 INFO 11805 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:27:17,352 INFO 11805 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '111' AND `users`.`password` = '';
+2019-03-28 15:27:59,365 INFO 11813 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:28:02,877 INFO 11813 [egg-sequelize](9ms) Executed (default): SELECT `user_id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`user_id` = '111' AND `users`.`name` = '';
+2019-03-28 15:28:16,311 INFO 11821 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:28:18,710 INFO 11821 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`user_id` = '111' AND `users`.`name` = '';
+2019-03-28 15:28:32,258 INFO 11828 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:28:35,726 INFO 11828 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`user_id` = '111' AND `users`.`name` = '';
+2019-03-28 15:41:24,045 INFO 11911 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:41:29,409 INFO 11911 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '111' AND `users`.`password` = '';
+2019-03-28 15:41:32,187 INFO 11911 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '111' AND `users`.`password` = '';
+2019-03-28 15:49:05,682 INFO 11960 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:49:36,222 INFO 11966 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:49:41,122 INFO 11966 [egg-sequelize](5ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = NULL AND `users`.`password` = '';
+2019-03-28 15:52:16,446 INFO 11989 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:53:39,963 INFO 11993 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:54:42,284 INFO 12002 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 15:56:44,043 INFO 12014 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 16:59:15,589 INFO 13084 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 16:59:35,742 INFO 13088 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 16:59:37,159 INFO 13090 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 16:59:59,406 INFO 13096 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:00:08,372 INFO 13096 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = NULL AND `users`.`password` = '';
+2019-03-28 17:06:06,082 INFO 13109 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:06:30,375 INFO 13109 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591' AND `users`.`password` = NULL;
+2019-03-28 17:06:48,920 INFO 13119 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:07:03,041 INFO 13121 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:07:11,066 INFO 13121 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 17:07:45,364 INFO 13129 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:07:47,936 INFO 13129 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = 18797814591;
+2019-03-28 17:09:32,639 INFO 13141 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:09:37,504 INFO 13141 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 17:10:09,355 INFO 13141 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 17:10:34,516 INFO 13155 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:10:41,031 INFO 13155 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 17:20:31,319 INFO 13282 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:20:35,456 INFO 13282 [egg-sequelize](7ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 17:21:42,963 INFO 13288 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:21:49,571 INFO 13293 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:21:52,905 INFO 13293 [egg-sequelize](7ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 17:22:17,796 INFO 13293 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 17:22:28,311 INFO 13293 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 17:23:42,341 INFO 13311 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:47:50,357 INFO 13804 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:48:05,038 INFO 13804 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 17:48:08,895 INFO 13804 [egg-sequelize](6ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 17:48:21,392 INFO 13811 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:48:27,875 INFO 13813 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:48:29,069 INFO 13813 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 17:53:50,437 INFO 13813 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 17:57:46,732 INFO 13866 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:59:43,133 INFO 13879 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 17:59:52,247 INFO 13883 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 18:00:12,813 INFO 13888 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 18:00:22,980 INFO 13888 [egg-sequelize](6ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 18:03:15,093 INFO 13898 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 18:03:21,413 INFO 13898 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 18:03:28,865 INFO 13898 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814592';
+2019-03-28 18:03:28,886 INFO 13898 [egg-sequelize](1ms) Executed (default): INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:03:28','2019-03-28 18:03:28');
+2019-03-28 18:03:28,899 ERROR 13898 [-/172.18.11.29/-/34ms POST /register] nodejs.SequelizeDatabaseError: Column 'user_id' cannot be null
+    at Query.formatError (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.execute (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:72:12)
+    at PacketParser.executeStart (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:79:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.insert (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:3685:53)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:3661:8)
+    at Function.create (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:2023:8)
+    at BaseService.addUser (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/service/base.js:16:45)
+    at RegisterContorller.index (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/controller/register.js:20:54)
+    at <anonymous>
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlState":"23000","sqlMessage":"Column 'user_id' cannot be null","sql":"INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:03:28','2019-03-28 18:03:28');"}
+original: {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlState":"23000","sqlMessage":"Column 'user_id' cannot be null","sql":"INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:03:28','2019-03-28 18:03:28');"}
+sql: "INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:03:28','2019-03-28 18:03:28');"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13898
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 18:05:32,503 INFO 13898 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814592';
+2019-03-28 18:05:32,511 INFO 13898 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:05:32','2019-03-28 18:05:32');
+2019-03-28 18:05:32,529 ERROR 13898 [-/172.18.11.29/-/28ms POST /register] nodejs.SequelizeDatabaseError: Column 'user_id' cannot be null
+    at Query.formatError (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.execute (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:72:12)
+    at PacketParser.executeStart (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:79:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.insert (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:3685:53)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:3661:8)
+    at Function.create (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:2023:8)
+    at BaseService.addUser (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/service/base.js:16:45)
+    at RegisterContorller.index (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/controller/register.js:20:54)
+    at <anonymous>
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlState":"23000","sqlMessage":"Column 'user_id' cannot be null","sql":"INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:05:32','2019-03-28 18:05:32');"}
+original: {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlState":"23000","sqlMessage":"Column 'user_id' cannot be null","sql":"INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:05:32','2019-03-28 18:05:32');"}
+sql: "INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:05:32','2019-03-28 18:05:32');"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13898
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 18:05:43,428 INFO 13898 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 18:05:43,437 INFO 13898 [egg-sequelize](4ms) Executed (default): INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:05:43','2019-03-28 18:05:43');
+2019-03-28 18:05:43,444 ERROR 13898 [-/172.18.11.29/-/17ms POST /register] nodejs.SequelizeDatabaseError: Column 'user_id' cannot be null
+    at Query.formatError (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.execute (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:72:12)
+    at PacketParser.executeStart (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:79:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.insert (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:3685:53)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:3661:8)
+    at Function.create (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:2023:8)
+    at BaseService.addUser (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/service/base.js:16:45)
+    at RegisterContorller.index (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/controller/register.js:20:54)
+    at <anonymous>
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlState":"23000","sqlMessage":"Column 'user_id' cannot be null","sql":"INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:05:43','2019-03-28 18:05:43');"}
+original: {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlState":"23000","sqlMessage":"Column 'user_id' cannot be null","sql":"INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:05:43','2019-03-28 18:05:43');"}
+sql: "INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:05:43','2019-03-28 18:05:43');"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13898
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 18:06:32,475 INFO 13918 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 18:06:33,598 INFO 13919 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 18:06:36,668 INFO 13919 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 18:06:36,686 INFO 13919 [egg-sequelize](1ms) Executed (default): INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:06:36','2019-03-28 18:06:36');
+2019-03-28 18:06:36,697 ERROR 13919 [-/172.18.11.29/-/64ms POST /register] nodejs.SequelizeDatabaseError: Column 'user_id' cannot be null
+    at Query.formatError (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.execute (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:72:12)
+    at PacketParser.executeStart (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:79:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.insert (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:3685:53)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:3661:8)
+    at Function.create (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:2023:8)
+    at BaseService.addUser (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/service/base.js:16:45)
+    at RegisterContorller.index (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/controller/register.js:20:54)
+    at <anonymous>
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlState":"23000","sqlMessage":"Column 'user_id' cannot be null","sql":"INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:06:36','2019-03-28 18:06:36');"}
+original: {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlState":"23000","sqlMessage":"Column 'user_id' cannot be null","sql":"INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:06:36','2019-03-28 18:06:36');"}
+sql: "INSERT INTO `users` (`user_id`,`phone`,`created_at`,`updated_at`) VALUES (NULL,'[object Object]','2019-03-28 18:06:36','2019-03-28 18:06:36');"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13919
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 18:08:02,141 INFO 13954 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 18:08:09,455 INFO 13956 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 18:08:12,681 INFO 13956 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 18:08:12,704 INFO 13956 [egg-sequelize](0ms) Executed (default): INSERT INTO `users` (`user_id`,`phone`,`password`,`age`,`created_at`,`updated_at`) VALUES (NULL,'18797814591','2211',18,'2019-03-28 18:08:12','2019-03-28 18:08:12');
+2019-03-28 18:08:12,715 ERROR 13956 [-/172.18.11.29/-/68ms POST /register] nodejs.SequelizeDatabaseError: Column 'user_id' cannot be null
+    at Query.formatError (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)
+    at Query.handler [as onResult] (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)
+    at Query.execute (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:449:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:72:12)
+    at PacketParser.executeStart (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/mysql2/lib/connection.js:79:25)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+From previous event:
+    at Query.run (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/dialects/mysql/query.js:57:12)
+    at Promise.try.then.connection (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.insert (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/query-interface.js:901:27)
+    at Promise.try.then.then.then (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:3685:53)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at model.save (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:3661:8)
+    at Function.create (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:2023:8)
+    at BaseService.addUser (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/service/base.js:16:45)
+    at RegisterContorller.index (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/controller/register.js:20:54)
+    at <anonymous>
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlState":"23000","sqlMessage":"Column 'user_id' cannot be null","sql":"INSERT INTO `users` (`user_id`,`phone`,`password`,`age`,`created_at`,`updated_at`) VALUES (NULL,'18797814591','2211',18,'2019-03-28 18:08:12','2019-03-28 18:08:12');"}
+original: {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlState":"23000","sqlMessage":"Column 'user_id' cannot be null","sql":"INSERT INTO `users` (`user_id`,`phone`,`password`,`age`,`created_at`,`updated_at`) VALUES (NULL,'18797814591','2211',18,'2019-03-28 18:08:12','2019-03-28 18:08:12');"}
+sql: "INSERT INTO `users` (`user_id`,`phone`,`password`,`age`,`created_at`,`updated_at`) VALUES (NULL,'18797814591','2211',18,'2019-03-28 18:08:12','2019-03-28 18:08:12');"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13956
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-28 18:08:30,865 INFO 13963 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 18:08:33,455 INFO 13963 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 18:08:33,480 INFO 13963 [egg-sequelize](3ms) Executed (default): INSERT INTO `users` (`user_id`,`phone`,`password`,`age`,`created_at`,`updated_at`) VALUES (1,'18797814591','2211',18,'2019-03-28 18:08:33','2019-03-28 18:08:33');
+2019-03-28 18:12:18,863 INFO 13963 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-28 18:12:18,875 INFO 13963 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`user_id`,`phone`,`password`,`age`,`created_at`,`updated_at`) VALUES (1,'18797814591','2211',18,'2019-03-28 18:12:18','2019-03-28 18:12:18');
+2019-03-28 18:12:30,047 INFO 14027 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 18:12:46,759 INFO 14027 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814592';
+2019-03-28 18:12:46,782 INFO 14027 [egg-sequelize](2ms) Executed (default): INSERT INTO `users` (`user_id`,`phone`,`password`,`age`,`created_at`,`updated_at`) VALUES (NULL,'18797814592','22',18,'2019-03-28 18:12:46','2019-03-28 18:12:46');
+2019-03-28 18:14:14,893 INFO 14035 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 18:14:19,705 INFO 14035 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814592';
+2019-03-28 18:14:24,291 INFO 14035 [egg-sequelize](7ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814593';
+2019-03-28 18:14:24,318 INFO 14035 [egg-sequelize](5ms) Executed (default): INSERT INTO `users` (`user_id`,`phone`,`password`,`age`,`created_at`,`updated_at`) VALUES (NULL,'18797814593','22',18,'2019-03-28 18:14:24','2019-03-28 18:14:24');
+2019-03-28 18:17:06,204 INFO 14045 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 18:17:09,334 INFO 14045 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814593';
+2019-03-28 18:17:24,578 INFO 14045 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814593';
+2019-03-28 18:19:04,535 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 18:19:05,772 INFO 14057 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 18:19:11,672 INFO 14057 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814593';
+2019-03-28 18:23:06,071 INFO 14080 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-28 18:25:48,845 INFO 14094 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:25:57,954 INFO 14094 [egg-sequelize](47ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 09:28:34,804 INFO 15864 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:29:02,570 INFO 15875 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:29:13,021 INFO 15876 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:29:27,409 INFO 15883 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:29:40,383 INFO 15884 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:30:04,352 INFO 15886 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:31:08,727 INFO 15892 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:31:53,142 INFO 15897 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:32:43,850 INFO 15944 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:33:08,769 INFO 15959 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:33:32,150 INFO 15974 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:33:41,236 INFO 15975 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:33:50,845 INFO 15977 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:34:36,757 INFO 15977 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 09:40:09,855 INFO 16098 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:40:23,091 INFO 16099 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:41:16,177 INFO 16112 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:41:45,404 INFO 16122 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:42:09,536 INFO 16131 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:42:29,774 INFO 16133 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:42:37,164 INFO 16136 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:42:42,516 INFO 16136 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 09:43:43,998 INFO 16154 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:46:57,299 INFO 16161 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:48:13,941 INFO 16178 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:48:24,164 INFO 16178 [egg-sequelize](6ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = NULL;
+2019-03-29 09:48:24,207 INFO 16178 [egg-sequelize](23ms) Executed (default): INSERT INTO `users` (`user_id`,`password`,`age`,`created_at`,`updated_at`) VALUES (NULL,'11',18,'2019-03-29 09:48:24','2019-03-29 09:48:24');
+2019-03-29 09:48:46,276 INFO 16186 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:48:49,865 INFO 16186 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = NULL;
+2019-03-29 09:48:57,372 INFO 16186 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = NULL;
+2019-03-29 09:49:07,080 INFO 16194 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:49:33,543 INFO 16204 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:49:35,986 INFO 16204 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = NULL;
+2019-03-29 09:49:58,721 INFO 16204 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 09:50:25,733 INFO 16213 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:50:26,612 INFO 16213 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = NULL;
+2019-03-29 09:50:37,079 INFO 16219 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:50:39,698 INFO 16219 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = NULL;
+2019-03-29 09:52:22,564 INFO 16219 [egg-sequelize](9ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 09:53:42,479 INFO 16243 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:53:49,417 INFO 16243 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814590';
+2019-03-29 09:53:59,602 INFO 16249 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:54:02,116 INFO 16249 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814590';
+2019-03-29 09:54:27,271 INFO 16255 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:54:28,348 INFO 16256 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:54:36,814 INFO 16261 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:54:40,576 INFO 16261 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814590';
+2019-03-29 09:54:48,272 INFO 16268 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:54:51,862 INFO 16268 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814590';
+2019-03-29 09:55:24,457 INFO 16278 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:55:29,260 INFO 16279 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:55:32,231 INFO 16279 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814590';
+2019-03-29 09:55:44,413 INFO 16279 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 09:56:59,484 INFO 16299 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 09:57:04,909 INFO 16299 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 10:05:39,326 INFO 16326 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 10:05:43,081 INFO 16328 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 10:05:50,169 INFO 16328 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 10:05:50,182 ERROR 16328 [-/172.18.11.29/-/43ms POST /user/modify] nodejs.AssertionError [ERR_ASSERTION]: Missing where attribute in the options parameter
+    at Function._optionsMustContainWhere (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:3044:5)
+    at Function.update (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:2666:10)
+    at BaseService.modify (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/service/base/user.js:24:45)
+    at ModifyConroller.index (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/controller/user/modify.js:33:58)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16328
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 10:08:08,341 INFO 16328 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 10:09:28,049 INFO 16349 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 10:09:36,295 INFO 16352 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 10:09:48,005 INFO 16353 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 10:09:53,952 INFO 16354 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 10:10:38,584 INFO 16366 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 10:10:48,307 INFO 16366 [egg-sequelize](5ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 10:11:06,585 INFO 16374 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 10:11:09,941 INFO 16374 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 10:11:18,943 INFO 16374 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 10:11:18,949 ERROR 16374 [-/172.18.11.29/-/10ms POST /user/modify] nodejs.AssertionError [ERR_ASSERTION]: Missing where attribute in the options parameter
+    at Function._optionsMustContainWhere (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:3044:5)
+    at Function.update (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:2666:10)
+    at BaseService.modify (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/service/base/user.js:24:45)
+    at ModifyConroller.index (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/controller/user/modify.js:36:58)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16374
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 10:11:27,177 INFO 16380 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 10:11:30,096 INFO 16380 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 10:11:30,100 ERROR 16380 [-/172.18.11.29/-/29ms POST /user/modify] nodejs.AssertionError [ERR_ASSERTION]: Missing where attribute in the options parameter
+    at Function._optionsMustContainWhere (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:3044:5)
+    at Function.update (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/sequelize/lib/model.js:2666:10)
+    at BaseService.modify (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/service/base/user.js:24:45)
+    at ModifyConroller.index (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/controller/user/modify.js:34:58)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16380
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 10:11:45,844 INFO 16386 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 10:11:49,767 INFO 16386 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 10:11:49,792 INFO 16386 [egg-sequelize](8ms) Executed (default): UPDATE `users` SET `password`='112212',`updated_at`='2019-03-29 10:11:49' WHERE `password` = '2211' AND `phone` = '18797814591'
+2019-03-29 10:15:38,362 INFO 16407 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 10:15:44,012 INFO 16407 [egg-sequelize](5ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 10:15:50,465 INFO 16407 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 10:15:50,489 INFO 16407 [egg-sequelize](5ms) Executed (default): UPDATE `users` SET `password`='112212',`updated_at`='2019-03-29 10:15:50' WHERE `password` = '112212' AND `phone` = '18797814591'
+2019-03-29 10:17:17,397 INFO 16419 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 11:08:24,794 INFO 17199 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result

@@ -1,0 +1,549 @@
+2019-03-29 11:23:23,576 INFO 17370 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 11:23:30,496 INFO 17370 [egg-sequelize](6ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 11:35:09,774 INFO 17420 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 11:35:15,702 ERROR 17420 [-/172.18.11.29/-/24ms POST /user/login] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: phone
+    at Parameter.validate (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/parameter/index.js:106:15)
+    at Object.validate (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-validate/app/extend/context.js:12:39)
+    at LoginController.index (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/controller/user/login.js:21:26)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17420
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 11:40:14,122 INFO 17459 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 11:40:26,450 INFO 17459 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `name`, `phone`, `password`, `age`, `created_at`, `updated_at` FROM `users` AS `users` WHERE `users`.`phone` = '18797814591';
+2019-03-29 11:40:35,574 WARN 17459 [-/172.18.11.29/-/2ms POST /user/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-validate/app/extend/context.js:14:17)
+    at LoginController.index (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/controller/user/login.js:23:26)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"length should bigger than 11","code":"invalid","field":"phone"}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17459
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 11:42:19,747 INFO 17466 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 11:42:29,844 INFO 17472 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 11:44:51,381 INFO 17480 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 11:45:37,505 INFO 17483 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 13:37:47,548 INFO 17709 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 15:41:12,235 INFO 19989 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 15:43:02,208 INFO 19994 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 15:43:08,776 INFO 19996 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 15:43:20,394 INFO 20001 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 15:43:27,316 INFO 20002 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 15:43:40,455 INFO 20016 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 15:44:18,993 INFO 20017 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 15:44:27,929 INFO 20028 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 15:45:48,110 INFO 20042 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 15:47:34,653 INFO 20068 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 15:48:07,529 INFO 20075 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 16:01:48,851 INFO 20137 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 16:01:50,065 INFO 20138 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 16:02:08,413 INFO 20144 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 16:02:20,431 INFO 20146 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 16:02:21,514 INFO 20147 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 16:02:59,504 INFO 20153 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 16:03:00,622 INFO 20154 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 17:58:23,620 ERROR 21841 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Path must be a string. Received { fieldClass: 'rulesClass' }
+    at assertPath (path.js:28:11)
+    at Object.join (path.js:1236:7)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:14:44)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 21841
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 17:58:24,877 ERROR 21842 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Path must be a string. Received { fieldClass: 'rulesClass' }
+    at assertPath (path.js:28:11)
+    at Object.join (path.js:1236:7)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:14:44)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 21842
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 17:58:47,169 ERROR 21843 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:14:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21843
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 17:58:48,302 ERROR 21844 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:14:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21844
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 17:59:03,115 ERROR 21849 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:14:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21849
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 17:59:04,275 ERROR 21854 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:14:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21854
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 17:59:59,715 ERROR 21856 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:15:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21856
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:00:00,844 ERROR 21857 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:15:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21857
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:00:27,136 ERROR 21862 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:15:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21862
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:00:28,254 ERROR 21863 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:15:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21863
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:01:13,118 ERROR 21868 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:15:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21868
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:01:14,283 ERROR 21874 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:15:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21874
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:01:34,571 ERROR 21875 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:15:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21875
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:01:35,638 ERROR 21876 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:15:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21876
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:01:40,269 ERROR 21877 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:15:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21877
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:01:41,374 ERROR 21882 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:15:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21882
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:01:50,764 ERROR 21884 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:15:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21884
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:01:51,916 ERROR 21885 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: options.property is required
+    at new ContextLoader (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/context_loader.js:49:5)
+    at AppWorkerLoader.loadToContext (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/egg_loader.js:408:5)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:15:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 21885
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:03:15,412 ERROR 21887 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Path must be a string. Received { fieldClass: 'rulesClasses' }
+    at assertPath (path.js:28:11)
+    at Object.join (path.js:1236:7)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:15:44)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 21887
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:03:16,555 ERROR 21888 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Path must be a string. Received { fieldClass: 'rulesClasses' }
+    at assertPath (path.js:28:11)
+    at Object.join (path.js:1236:7)
+    at AppBootHook.didLoad (/Users/yangfan/Desktop/yf/my-mall/mall-service/app.js:15:44)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+
+pid: 21888
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:04:03,403 INFO 21893 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:04:04,484 INFO 21894 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:04:10,414 INFO 21895 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:04:11,641 INFO 21897 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:04:28,114 INFO 21906 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:05:11,653 INFO 21939 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:05:20,342 INFO 21952 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:08:00,837 INFO 22000 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:08:05,061 ERROR 22000 [-/172.18.11.29/-/25ms POST /user/login] nodejs.TypeError: ctx.rules is not a function
+    at LoginController.index (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/controller/user/login.js:23:25)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 22000
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:08:16,244 INFO 22007 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:08:19,354 ERROR 22007 [-/172.18.11.29/-/23ms POST /user/login] nodejs.TypeError: ctx.rules is not a constructor
+    at LoginController.index (/Users/yangfan/Desktop/yf/my-mall/mall-service/app/controller/user/login.js:23:21)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 22007
+hostname: yangfandeMacBook-Pro.local
+
+2019-03-29 18:08:28,569 INFO 22012 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:10:55,386 INFO 22020 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:10:56,501 INFO 22021 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:11:03,793 INFO 22026 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:11:04,853 INFO 22027 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:11:23,686 INFO 22033 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:11:24,763 INFO 22034 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:18:31,806 INFO 22074 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:18:32,966 INFO 22075 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:19:02,390 INFO 22082 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:21:20,885 INFO 22093 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:21:22,038 INFO 22098 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:35:51,958 INFO 22142 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:36:51,334 INFO 22148 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:37:52,920 INFO 22152 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:38:08,938 INFO 22158 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:41:47,113 INFO 22174 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:42:24,322 INFO 22181 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:43:10,609 INFO 22182 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:44:06,572 INFO 22192 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-03-29 18:54:59,839 INFO 23396 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
