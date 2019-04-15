@@ -1,6 +1,7 @@
 'use strict';
 
 const Conroller = require('egg').Controller;
+const jwt = require('jsonwebtoken');
 
 class ModifyConroller extends Conroller {
     async index() {
@@ -13,7 +14,7 @@ class ModifyConroller extends Conroller {
         const queryResult = await ctx.service.base.user.isHaveUser({
             phone,
         });
-        // 用户不村子啊
+        // 用户不存在
         if (queryResult.length === 0) {
             ctx.body = {
                 code: 200023,
@@ -35,10 +36,17 @@ class ModifyConroller extends Conroller {
             password,
             newPassword,
         }, phone);
+        // const tokenVal = jwt.sign({
+        //     user_id: data.user_id,
+        // }, 'PS256', {
+        //     expiresIn: 60 * 60 * 24,
+        // });
+        // console.log(tokenVal);
         if (modifyResult.length !== 0) {
             ctx.body = {
                 code: 200020,
                 msg: '修改成功，请重新登陆!',
+                // token: tokenVal,
             };
         }
     }

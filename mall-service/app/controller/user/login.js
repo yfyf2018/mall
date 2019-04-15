@@ -37,7 +37,6 @@ class LoginController extends Controller {
             phone,
         });
         // 账号不存在
-        console.log(111);
         if (result.length === 0) {
             ctx.body = {
                 code: 200023,
@@ -47,7 +46,6 @@ class LoginController extends Controller {
         }
         // 账号或密码错误
         const data = result[0];
-        console.log(data.dataValues);
         if (data.dataValues.password !== password) {
             ctx.body = {
                 code: 200022,
@@ -58,7 +56,7 @@ class LoginController extends Controller {
         const tokenVal = jwt.sign({
             user_id: data.dataValues.user_id,
         }, 'PS256', {
-            expiresIn: 10000,
+            expiresIn: 60 * 60 * 24,
         });
         // NtYs0nA4kf0SWdnjTkfrmSHgnLWa2iY2Jh_8clkdRk0
         // const decoded = jwt.decode(tokenVal, { complete: true });

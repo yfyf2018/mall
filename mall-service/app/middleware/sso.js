@@ -4,9 +4,8 @@ const jwt = require('jsonwebtoken');
 
 module.exports = () => {
     return async (ctx, next) => {
-        next();
+        await next();
         const body = ctx.body;
-        console.log(body);
         if (!body) {
             const {
                 token,
@@ -15,7 +14,6 @@ module.exports = () => {
                 jwt.verify(token, 'PS256');
                 // val = jwt.verify(token, 'PS256');
             } catch (error) {
-                console.log(error);
                 ctx.body = {
                     code: 401,
                     msg: '登录令牌已失效已失效，请重新登陆',
@@ -28,6 +26,5 @@ module.exports = () => {
             ctx.body = body;
             return;
         }
-        console.log(ctx.request.body);
     };
 };

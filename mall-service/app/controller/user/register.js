@@ -17,7 +17,6 @@ class RegisterContorller extends Contorller {
             };
             return;
         }
-        console.log(body.pay_time);
         const test = await ctx.service.user.add.index({
             phone: body.phone,
             password: body.password,

@@ -1,6 +1,0 @@
-2019-03-31 11:12:27,377 INFO 20067 [Timer] /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46052632ms at 2019-04-01 00:00:00.009
-2019-03-31 11:12:27,374 INFO 23396 [Job#15540019473661465251616355622] /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
-2019-03-31 11:12:27,385 INFO 23396 [Job#15540019473661465251616355622] /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 10ms
-2019-03-31 11:12:28,328 INFO 20067 [Timer] /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46052677ms at 2019-04-01 00:00:01.005
-2019-03-31 11:12:28,323 INFO 23396 [Job#15540019483171465261182814372] /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
-2019-03-31 11:12:28,330 INFO 23396 [Job#15540019483171465261182814372] /Users/yangfan/Desktop/yf/my-mall/mall-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 7ms
